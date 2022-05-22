@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
+import Footer from '../Partials/Footer'
+import Header from '../Partials/Header'
 
 export default function Home() {
   return (

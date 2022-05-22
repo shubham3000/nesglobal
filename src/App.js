@@ -4,7 +4,7 @@ import './App.css';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import './Styles/global.css'
 
-import Home from './MyComponents/Home';
+import Home from './Pages/Home';
 
 function App() {
   return (
