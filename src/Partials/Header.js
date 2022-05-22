@@ -15,19 +15,19 @@ export default function header() {
                 <div className="menu">
                     <ul className="menu-list">
                         <li>
-                            <NavLink to="/" >Products</NavLink>
+                            <NavLink to="/" >Products<i class="fal fa-angle-down"></i></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" >Use Cases</NavLink>
+                            <NavLink to="/" >Use Cases<i class="fal fa-angle-down"></i></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" >Developers</NavLink>
+                            <NavLink to="/" >Developers<i class="fal fa-angle-down"></i></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" >Resources</NavLink>
+                            <NavLink to="/" >Resources<i class="fal fa-angle-down"></i></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" >Company</NavLink>
+                            <NavLink to="/" >Company<i class="fal fa-angle-down"></i></NavLink>
                         </li>
                     </ul>
                 </div>

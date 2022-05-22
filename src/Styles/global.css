@@ -69,6 +69,15 @@ nav
     font-size: 14px;
     line-height: 14px;
     color: #595858;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-list i
+{
+    font-size: 20px;
+    padding-left: 5px;
 }
 
 .search-nav ul li i
@@ -292,3 +301,57 @@ nav
     padding: 10px;
     width: 40px;
 }
+
+.footer-heading h5
+{
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer-list ul
+{
+    padding-left: 0;
+}
+
+.footer-list li
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #D9D9D9;
+    margin: 25px 0;
+}
+
+.footer-middle .col-lg-2 
+{
+    margin-right: 40px;
+    padding-right: 0;
+}
+
+.footer-middle .col-lg-2:nth-child(5)
+{
+    margin-right: 0px;
+    padding-right: 0;
+}
+
+footer hr
+{
+    color: #FFFFFF;
+}
+
+.copyright p,
+.policy p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
