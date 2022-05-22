@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,800;1,900&family=Prompt:wght@200;400;500;600;700;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+.mt-15
+{
+    margin-top: 8rem;
+}
+.mb-15
+{
+    margin-bottom: 8rem;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+nav
+{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul,
+.search-nav ul
+{
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.menu ul li,
+.search-nav ul li
+{
+    padding: 0 16px;
+}
+
+.menu ul li a
+{
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #595858;
+}
+
+.search-nav ul li i
+{
+    width: 24px;
+    height: 24px;
+    color: #0060BE;
+}
+
+.search-nav ul li button
+{
+    width: 150px;
+    height: 45px;
+    background: #0060BE;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.top-section
+{
+    height: 650px;
+}
+
+.home-details h1
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+
+.home-details p
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}
+
+.talk-to-expert button
+{
+    border: none;
+    width: 199px;
+    height: 56px;
+    background: #0060BE;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.watch-video a
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.section-head h4
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.supply-chain-head h3,
+.find-heading h3,
+.case-study-head h3,
+.case-header h3,
+.signup-heading h3
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #0C1E35;
+}
+
+.supply-chain-build--details h3
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3D4B5D;
+}
+
+.supply-chain-build--details p,
+.find-paragraph p,
+.case-paragraph p,
+.signup-paragraph p
+.signup-agree
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D7886;
+}
+
+.supply-chain-build--details a
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.case
+{
+    padding-top: 4rem;
+    padding-right: 2rem;
+}
+
+.case-btn .read-btn button
+{
+    width: 196px;
+    height: 56px;
+    border: none;
+    background: #0060BE;
+    border-radius: 3px;
+    padding: 16px 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.case-btn .get-started-btn button
+{
+    margin-left: 25px;
+    width: 150px;
+    height: 56px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 16px 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    box-shadow: 0px 4px 20px rgba(12, 30, 53, 0.08);
+}
+
+.signup-box 
+{
+    margin-top: 25px;
+    width: 574px;
+    height: 346px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
+    border-radius: 4px;
+    padding: 4rem;
+}
+
+.signup-box h4
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0C1E35;
+}
+
+.signup-box .email
+{
+    width: 422px;
+    height: 60px;
+    border: 2px solid rgba(12, 30, 53, 0.08);
+    padding-left: 15px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.signup-box .signup-btn
+{
+    margin-top: 2.5rem;
+    width: 137px;
+    height: 56px;
+    border: none;
+    background: #0060BE;
+    border-radius: 3px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* .signup-box input[type=checkbox]:checked::after
+{
+    background-color: #0060BE;
+} */
+
+.social-icon i
+{
+    color: #FFFFFF;
+    align-items: center;
+    background: #0060BE;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 10px;
+    width: 40px;
+}
