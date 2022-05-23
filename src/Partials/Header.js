@@ -53,7 +53,7 @@ export default function header(props) {
                     <div className="search-nav">
                         <ul>
                             <li>
-                                <a href='#'><i class="far fa-search"></i></a>
+                                <a href='#'><i class="far fa-search" style={{color: isWhite?"#E6E5E5":'#0060BE'}}></i></a>
                             </li>
                             <li>
                                 <button type='submit'>Get Started</button>
