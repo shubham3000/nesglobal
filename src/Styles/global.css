@@ -407,7 +407,8 @@ footer hr
     color: #FFFFFF;
 }
 
-.product-paragraph p
+.product-paragraph p,
+.product-tag-paragraph p
 {
     font-family: 'Epilogue';
     font-style: normal;
@@ -415,4 +416,36 @@ footer hr
     font-size: 16px;
     line-height: 150%;
     color: #D9D9D9;
+}
+
+.product-tag-paragraph p
+{
+    color: #737171;
+}
+
+.product-tag img
+{
+    width: 64px;
+    height: 64px;
+}
+
+.product-tag-head h4
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #595858;
+}
+
+.leading-brands h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
 }
