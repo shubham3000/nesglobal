@@ -80,6 +80,31 @@ nav
     padding-left: 5px;
 }
 
+.menu-list .sub-menu
+{
+    position: absolute;
+    display: none;
+    top: 68px;
+    background: #FFFFFF;
+    padding-left: 0;
+}
+
+.menu-list .sub-menu li
+{
+    margin: 15px 0;
+}
+
+.menu .menu-list li:hover i
+{
+    transform: rotateX(180deg);
+    padding-left: 5px;
+}
+
+.menu .menu-list li:hover .sub-menu
+{
+    display: block;
+}
+
 .search-nav ul li i
 {
     width: 24px;
