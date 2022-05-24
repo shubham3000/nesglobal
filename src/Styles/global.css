@@ -61,6 +61,24 @@ nav
     padding: 0 16px;
 }
 
+.search-nav ul li i
+{
+    width: 24px;
+    height: 24px;
+}
+
+.search-nav ul li button
+{
+    width: 150px;
+    height: 45px;
+    background: #0060BE;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
 .menu ul li a
 {
     font-family: 'Epilogue', sans-serif;
@@ -80,47 +98,55 @@ nav
     padding-left: 5px;
 }
 
-.menu-list .sub-menu
-{
-    position: absolute;
-    display: none;
-    top: 68px;
-    background: #FFFFFF;
-    padding-left: 0;
-}
-
-.menu-list .sub-menu li
-{
-    margin: 15px 0;
-}
-
 .menu .menu-list li:hover i
 {
     transform: rotateX(180deg);
     padding-left: 5px;
 }
 
-.menu .menu-list li:hover .sub-menu
-{
-    display: block;
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #595858;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 15px;
 }
 
-.search-nav ul li i
-{
-    width: 24px;
-    height: 24px;
+.dropdown:hover .dropbtn {
+  background-color: #0060BE;
+  color: #FFFFFF;
 }
 
-.search-nav ul li button
-{
-    width: 150px;
-    height: 45px;
-    background: #0060BE;
-    border-radius: 4px;
-    border: none;
-    color: #FFFFFF;
-    padding: 12px 20px;
-    font-family: 'Prompt', sans-serif;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-list .dropdown .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block !important;
+  text-align: left;
+  line-height: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
@@ -187,7 +213,8 @@ nav
 .find-heading h3,
 .case-study-head h3,
 .case-header h3,
-.signup-heading h3
+.signup-heading h3,
+.collaboration-head h3
 {
     font-family: 'Prompt', sans-serif;
     font-weight: 600;
@@ -232,10 +259,9 @@ nav
     padding-right: 2rem;
 }
 
-.case-btn .read-btn button
+.case-btn .read-btn button,
+.see-more-btn button
 {
-    width: 196px;
-    height: 56px;
     border: none;
     background: #0060BE;
     border-radius: 3px;
@@ -397,6 +423,17 @@ footer hr
     color: #FFFFFF;
 }
 
+.product-topic1 h4,
+.collaboration-topic h4
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
 .product-heading h1
 {
     font-family: 'Prompt';
@@ -408,7 +445,8 @@ footer hr
 }
 
 .product-paragraph p,
-.product-tag-paragraph p
+.product-tag-paragraph p,
+.collaboration-paragraph p
 {
     font-family: 'Epilogue';
     font-style: normal;
@@ -418,7 +456,8 @@ footer hr
     color: #D9D9D9;
 }
 
-.product-tag-paragraph p
+.product-tag-paragraph p,
+.collaboration-paragraph p
 {
     color: #737171;
 }
@@ -439,13 +478,15 @@ footer hr
     color: #595858;
 }
 
-.leading-brands h3
+.leading-brands h3,
+.product-heading1 h3,
+.collaboration-header h3
 {
     font-family: 'Prompt';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 130%;
-    text-align: center;
     color: #FFFFFF;
 }
+

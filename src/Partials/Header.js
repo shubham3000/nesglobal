@@ -19,21 +19,25 @@ export default function header(props) {
                     <div className="menu">
                         <ul className="menu-list">
                             <li>
-                                <NavLink to="/product" >Products<i class="fal fa-angle-down"></i>
-                                    <ul className='sub-menu'>
-                                        <li><a>Nes Platform</a></li>
-                                        <li><a>Nes Platform</a></li>
-                                        <li><a>Nes Platform</a></li>
-                                    </ul>
-                                </NavLink>
+                                <div className="dropdown">
+                                    <NavLink to="/product" className="dropbtn">Products<i class="fal fa-angle-down"></i>
+                                    </NavLink>
+                                    <div className='dropdown-content'>
+                                        <a href='/Product/Nesplatform'>Nes Platform</a>
+                                        <a href='/Product/Visibility'>Visiblity</a>
+                                        <a href='#'>Nes Platform</a>
+                                    </div>
+                                </div>
+                                
+                                
                             </li>
                             <li>
                                 <NavLink to="/" >Use Cases<i class="fal fa-angle-down"></i>
-                                    <ul className='sub-menu'>
+                                    {/* <ul className='sub-menu'>
                                         <li>Nes Platform</li>
                                         <li>Nes Platform</li>
                                         <li>Nes Platform</li>
-                                    </ul>
+                                    </ul> */}
                                 </NavLink>
                             </li>
                             <li>
