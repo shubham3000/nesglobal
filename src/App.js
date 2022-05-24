@@ -12,7 +12,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/product" element={<Customs/>}/>
+        
+        <Route path="/Product/NesPlatform" element={<Nesplatform/>}/>
+        <Route path="/Product/Visibility" element={<Visibility/>}/>
       </Routes>
     </Router>
     
