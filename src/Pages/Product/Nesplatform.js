@@ -89,7 +89,7 @@ export default function Nesplatform() {
         <div className="container mt-15">
             <div className="row">
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1">
+                    <div className="product-topic1 mb-4">
                         <h4>ACCESS</h4>
                     </div>
                     <div className="product-heading1">
@@ -113,7 +113,7 @@ export default function Nesplatform() {
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1">
+                    <div className="product-topic1 mb-4">
                         <h4>VISIBILITY</h4>
                     </div>
                     <div className="product-heading1">
@@ -128,7 +128,7 @@ export default function Nesplatform() {
                 <div className="mt-15"></div>
 
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1">
+                    <div className="product-topic1 mb-4">
                         <h4>CONTROL</h4>
                     </div>
                     <div className="product-heading1">
@@ -152,7 +152,7 @@ export default function Nesplatform() {
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1">
+                    <div className="product-topic1 mb-4">
                         <h4>INSIGHT</h4>
                     </div>
                     <div className="product-heading1">
@@ -166,6 +166,11 @@ export default function Nesplatform() {
         </div>
     </section>
 
+
+    {/* Manage	Your	Supply	Chain	End-to-End 
+       Have to write code
+    */}
+
     <section>
         <div className="container mt-15">
             <div className="row">
@@ -175,7 +180,7 @@ export default function Nesplatform() {
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
-                    <div className="product-topic1">
+                    <div className="product-topic1 mb-4">
                         <h4>SEARCH</h4>
                     </div>
                     <div className="product-heading1">
