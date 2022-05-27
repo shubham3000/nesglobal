@@ -20,12 +20,15 @@ export default function header(props) {
                         <ul className="menu-list">
                             <li>
                                 <div className="dropdown">
-                                    <NavLink to="/product" className="dropbtn">Products<i class="fal fa-angle-down"></i>
+                                    <NavLink to="/" className="dropbtn">Products<i class="fal fa-angle-down"></i>
                                     </NavLink>
                                     <div className='dropdown-content'>
                                         <a href='/Product/Nesplatform'>Nes Platform</a>
                                         <a href='/Product/Visibility'>Visiblity</a>
-                                        <a href='#'>Nes Platform</a>
+                                        <a href='/Product/Customs'>Customs</a>
+                                        <a href='/Product/AirFreight'>Air Freight</a>
+                                        <a href='/Product/OceanFreight'>Ocean Freight</a>
+                                        <a href='/Product/TradeFinance'>Trade Finance</a>
                                     </div>
                                 </div>
                                 

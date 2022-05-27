@@ -11,7 +11,7 @@ export default function Customs() {
   <div className="container">
     <div className="top-section d-flex align-items-center">
       <div className="row">
-        <div className="col-lg-8">
+        <div className="col-lg-7">
           <div className="product-topic">
             <h4>Customs</h4>
           </div>
@@ -34,7 +34,7 @@ export default function Customs() {
         <div className="col-lg-4">
           <div className="product-box">
             <div className="product-tag">
-              <img src='images/customs/landed.png' />
+              <img src='../images/product/customs/landed.png' />
             </div>
             <div className="product-tag-head mt-3">
               <h4>Landed	Costs,	Made	Easier</h4>
@@ -48,7 +48,7 @@ export default function Customs() {
         <div className="col-lg-4">
           <div className="product-box">
             <div className="product-tag">
-              <img src='images/customs/protactive.png' />
+              <img src='../images/product/customs/protactive.png' />
             </div>
             <div className="product-tag-head mt-3">
               <h4>Proactive	Exception	Management</h4>
@@ -62,7 +62,7 @@ export default function Customs() {
         <div className="col-lg-4">
           <div className="product-box">
             <div className="product-tag">
-              <img src='images/customs/brokers.png' />
+              <img src='../images/product/customs/brokers.png' />
             </div>
             <div className="product-tag-head mt-3">
               <h4>Brokers	Who	Are	More	Than	Brokers</h4>
@@ -95,7 +95,7 @@ export default function Customs() {
             </div>
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/customs/customs1.png' />
+                <img src='../images/product/customs/customs1.png' />
               </div>
             </div>
         </div>
@@ -118,7 +118,7 @@ export default function Customs() {
             </div>
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/customs/customs1.png' />
+                <img src='../images/product/customs/customs1.png' />
               </div>
             </div>
 
@@ -126,7 +126,7 @@ export default function Customs() {
 
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/customs/customs1.png' />
+                <img src='../images/product/customs/customs1.png' />
               </div>
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -152,7 +152,7 @@ export default function Customs() {
 
 <div className="mt-15"></div>
 
-<section style={{ background: "url('images/visibility/productbg.png')" }}>
+<section style={{ background: "url('../images/product/visibility/productbg.png')" }}>
         <div className="container">
           <div className="ready d-flex flex-column justify-content-center align-items-center">
             <div className="ready-heading">

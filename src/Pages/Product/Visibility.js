@@ -11,7 +11,7 @@ export default function Visibility() {
         <div className="container">
           <div className="top-section d-flex align-items-center">
             <div className="row">
-              <div className="col-lg-8">
+              <div className="col-lg-7">
                 <div className="product-topic">
                   <h4>Products</h4>
                 </div>
@@ -34,7 +34,7 @@ export default function Visibility() {
               <div className="col-lg-4">
                 <div className="product-box">
                   <div className="product-tag">
-                    <img src='images/visibility/location.png' />
+                    <img src='../images/product/visibility/location.png' />
                   </div>
                   <div className="product-tag-head mt-3">
                     <h4>Track	and	Trace,	All	in	One	Place</h4>
@@ -48,7 +48,7 @@ export default function Visibility() {
               <div className="col-lg-4">
                 <div className="product-box">
                   <div className="product-tag">
-                    <img src='images/visibility/manage.png' />
+                    <img src='../images/product/visibility/manage.png' />
                   </div>
                   <div className="product-tag-head mt-3">
                     <h4>Manage	Your	Supply	Chain	by	Exception</h4>
@@ -62,7 +62,7 @@ export default function Visibility() {
               <div className="col-lg-4">
                 <div className="product-box">
                   <div className="product-tag">
-                    <img src='images/visibility/data.png' />
+                    <img src='../images/product/visibility/data.png' />
                   </div>
                   <div className="product-tag-head mt-3">
                     <h4>Data	That	Almost	Goes	Overboard</h4>
@@ -93,7 +93,7 @@ export default function Visibility() {
             </div>
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/visibility/visibility1.png' />
+                <img src='../images/product/visibility/visibility1.png' />
               </div>
             </div>
 
@@ -102,7 +102,7 @@ export default function Visibility() {
 
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/visibility/visibility2.png' />
+                <img src='../images/product/visibility/visibility2.png' />
               </div>
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -132,7 +132,7 @@ export default function Visibility() {
             </div>
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/visibility/visibility3.png' />
+                <img src='../images/product/visibility/visibility3.png' />
               </div>
             </div>
 
@@ -141,7 +141,7 @@ export default function Visibility() {
 
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/visibility/visibility4.png' />
+                <img src='../images/product/visibility/visibility4.png' />
               </div>
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -172,7 +172,7 @@ export default function Visibility() {
             </div>
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/visibility/visibility5.png' />
+                <img src='../images/product/visibility/visibility5.png' />
               </div>
             </div>
 
@@ -181,7 +181,7 @@ export default function Visibility() {
 
             <div className="col-lg-6">
               <div className="product-img">
-                <img src='images/visibility/visibility6.png' />
+                <img src='../images/product/visibility/visibility6.png' />
               </div>
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -204,7 +204,7 @@ export default function Visibility() {
       <div className="mt-15"></div>
 
       
-      <section style={{ background: "url('images/visibility/productbg.png')" }}>
+      <section style={{ background: "url('../images/product/visibility/productbg.png')" }}>
         <div className="container">
           <div className="ready d-flex flex-column justify-content-center align-items-center">
             <div className="ready-heading">

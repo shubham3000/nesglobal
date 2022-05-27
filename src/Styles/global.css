@@ -449,7 +449,8 @@ footer hr
 .product-paragraph p,
 .product-tag-paragraph p,
 .collaboration-paragraph p,
-.ready-paragraph p
+.ready-paragraph p,
+.further-paragraph p
 {
     font-family: 'Epilogue';
     font-style: normal;
@@ -460,18 +461,21 @@ footer hr
 }
 
 .product-tag-paragraph p,
-.collaboration-paragraph p
+.collaboration-paragraph p,
+.further-paragraph p
 {
     color: #737171;
 }
 
-.product-tag img
+.product-tag img,
+.further-tag img
 {
     width: 64px;
     height: 64px;
 }
 
-.product-tag-head h4
+.product-tag-head h4,
+.further-head h4
 {
     font-family: 'Epilogue';
     font-style: normal;
@@ -485,7 +489,8 @@ footer hr
 .product-heading1 h3,
 .collaboration-header h3,
 .ready-heading h3,
-.product-faq-heading h3
+.product-faq-heading h3,
+.further-head h3
 {
     font-family: 'Prompt';
     font-style: normal;
@@ -570,11 +575,26 @@ footer hr
     margin-top: 2rem;
 }
 
+.card
+{
+    border: 1px solid #E6E5E5 !important;
+}
+
 /*Customs CSS*/
 .learn-more-btn button
 {
     border: 2px solid #0060BE;
     border-radius: 4px;
     background: none;
+    color: #0060BE;
+}
+
+.further-learn-more a
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     color: #0060BE;
 }
