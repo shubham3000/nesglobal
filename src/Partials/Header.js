@@ -23,29 +23,36 @@ export default function header(props) {
                                     <NavLink to="/" className="dropbtn">Products<i class="fal fa-angle-down"></i>
                                     </NavLink>
                                     <div className='dropdown-content'>
-                                        <a href='/Product/Nesplatform'>Nes Platform</a>
-                                        <a href='/Product/Visibility'>Visiblity</a>
-                                        <a href='/Product/Customs'>Customs</a>
-                                        <a href='/Product/AirFreight'>Air Freight</a>
-                                        <a href='/Product/OceanFreight'>Ocean Freight</a>
-                                        <a href='/Product/ProjectAirAndOceanCharters'>Project Air And Ocean Charters</a>
-                                        <a href='/Product/TradeFinance'>Trade Finance</a>
-                                        <a href='/Product/TradeAdvisory'>Trade Advisory</a>
-                                        <a href='/Product/Dutydrawbacks'>Duty Drawbacks</a>
-                                        <a href='/Product/ProductClassification'>Product Classification</a>
-                                        <a href='/Product/CargoInsurance'>Cargo Insurance</a>
+                                        <a href='#'>Logistics<i class="fal fa-angle-right"></i>
+                                            <div className="sub-dropdown-content">
+                                                <a href='/Product/Nesplatform'>Nes Platform</a>
+                                                <a href='/Product/Visibility'>Visiblity</a>
+                                                <a href='/Product/Customs'>Customs</a>
+                                            </div>
+                                        </a>
+
+                                        <a href='#'>Transportation<i class="fal fa-angle-right"></i>
+                                            <div className="sub-dropdown-content">
+                                                <a href='/Product/AirFreight'>Air Freight</a>
+                                                <a href='/Product/OceanFreight'>Ocean Freight</a>
+                                                <a href='/Product/ProjectAirAndOceanCharters'>Project Air And Ocean Charters</a>
+                                            </div>
+                                        </a>
+
+                                        <a href='#'>Trade Management<i class="fal fa-angle-right"></i>
+                                            <div className="sub-dropdown-content">
+                                                <a href='/Product/TradeFinance'>Trade Finance</a>
+                                                <a href='/Product/TradeAdvisory'>Trade Advisory</a>
+                                                <a href='/Product/Dutydrawbacks'>Duty Drawbacks</a>
+                                                <a href='/Product/ProductClassification'>Product Classification</a>
+                                                <a href='/Product/CargoInsurance'>Cargo Insurance</a>
+                                            </div>
+                                        </a>
                                     </div>
-                                </div>
-                                
-                                
+                                </div>    
                             </li>
                             <li>
                                 <NavLink to="/" >Use Cases<i class="fal fa-angle-down"></i>
-                                    {/* <ul className='sub-menu'>
-                                        <li>Nes Platform</li>
-                                        <li>Nes Platform</li>
-                                        <li>Nes Platform</li>
-                                    </ul> */}
                                 </NavLink>
                             </li>
                             <li>
@@ -55,7 +62,21 @@ export default function header(props) {
                                 <NavLink to="/" >Resources<i class="fal fa-angle-down"></i></NavLink>
                             </li>
                             <li>
-                                <NavLink to="/" >Company<i class="fal fa-angle-down"></i></NavLink>
+                                <div className="dropdown">
+                                <NavLink to="/" className="dropbtn">Company<i class="fal fa-angle-down"></i></NavLink>
+                                    <div className='dropdown-content'>
+                                        <a href='/Company/AboutUs'>About Us</a>
+                                        <a href='#'>Leadership</a>
+                                        <a href='#'>Engineering</a>
+                                        <a href='#'>Careers</a>
+                                        <a href='#'>Contact Us</a>
+                                        <a href='#'>Nescare.org<i class="fal fa-angle-right"></i>
+                                            <div className="sub-dropdown-content">
+                                                <a href='#'></a>    
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>

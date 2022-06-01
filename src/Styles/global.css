@@ -149,6 +149,36 @@ nav
   display: block;
 }
 
+.dropdown:hover .dropdown-content .sub-dropdown-content{
+    display: none;
+}
+
+
+.sub-dropdown-content
+{
+    position: absolute;
+    display: none;
+    left: 100%;
+    top: 10%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.sub-dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown .dropdown-content a:hover .sub-dropdown-content{
+    display: block;
+}
+
+.menu .menu-list li .dropdown-content:hover i
+{
+    transform: rotateX(180deg);
+    padding-left: 5px;
+}
+
 
 /*Home CSS*/
 

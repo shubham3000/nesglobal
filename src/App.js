@@ -2,6 +2,7 @@ import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import './Styles/global.css'
 
 import Home from './Pages/Home';
+
 import Nesplatform from './Pages/Product/Nesplatform';
 import Visibility from './Pages/Product/Visibility';
 import Customs from './Pages/Product/Customs';
@@ -13,6 +14,8 @@ import TradeAdvisory from "./Pages/Product/TradeAdvisory";
 import Dutydrawbacks from "./Pages/Product/Dutydrawbacks";
 import ProductClassification from "./Pages/Product/ProductClassification";
 import CargoInsurance from "./Pages/Product/CargoInsurance";
+
+import AboutUs from "./Pages/Company/AboutUs";
 
 function App() {
   return (
@@ -32,6 +35,8 @@ function App() {
         <Route path="/Product/ProductClassification" element={<ProductClassification/>}/>
         <Route path="/Product/CargoInsurance" element={<CargoInsurance/>}/>
         <Route path="/Product/ProjectAirAndOceanCharters" element={<ProjectAirAndOceanCharters/>}/>
+
+        <Route path="/Company/AboutUs" element={<AboutUs/>}/>
         
       </Routes>
     </Router>
