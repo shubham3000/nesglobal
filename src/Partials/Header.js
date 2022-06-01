@@ -28,7 +28,12 @@ export default function header(props) {
                                         <a href='/Product/Customs'>Customs</a>
                                         <a href='/Product/AirFreight'>Air Freight</a>
                                         <a href='/Product/OceanFreight'>Ocean Freight</a>
+                                        <a href='/Product/ProjectAirAndOceanCharters'>Project Air And Ocean Charters</a>
                                         <a href='/Product/TradeFinance'>Trade Finance</a>
+                                        <a href='/Product/TradeAdvisory'>Trade Advisory</a>
+                                        <a href='/Product/Dutydrawbacks'>Duty Drawbacks</a>
+                                        <a href='/Product/ProductClassification'>Product Classification</a>
+                                        <a href='/Product/CargoInsurance'>Cargo Insurance</a>
                                     </div>
                                 </div>
                                 

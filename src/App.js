@@ -7,7 +7,12 @@ import Visibility from './Pages/Product/Visibility';
 import Customs from './Pages/Product/Customs';
 import AirFreight from "./Pages/Product/AirFreight";
 import OceanFreight from "./Pages/Product/OceanFreight";
+import ProjectAirAndOceanCharters from "./Pages/Product/ProjectAirAndOceanCharters";
 import TradeFinance from "./Pages/Product/TradeFinance";
+import TradeAdvisory from "./Pages/Product/TradeAdvisory";
+import Dutydrawbacks from "./Pages/Product/Dutydrawbacks";
+import ProductClassification from "./Pages/Product/ProductClassification";
+import CargoInsurance from "./Pages/Product/CargoInsurance";
 
 function App() {
   return (
@@ -22,6 +27,12 @@ function App() {
         <Route path="/Product/AirFreight" element={<AirFreight/>}/>
         <Route path="/Product/OceanFreight" element={<OceanFreight />}/>
         <Route path="/Product/TradeFinance" element={<TradeFinance/>}/>
+        <Route path="/Product/TradeAdvisory" element={<TradeAdvisory/>}/>
+        <Route path="/Product/Dutydrawbacks" element={<Dutydrawbacks/>}/>
+        <Route path="/Product/ProductClassification" element={<ProductClassification/>}/>
+        <Route path="/Product/CargoInsurance" element={<CargoInsurance/>}/>
+        <Route path="/Product/ProjectAirAndOceanCharters" element={<ProjectAirAndOceanCharters/>}/>
+        
       </Routes>
     </Router>
     

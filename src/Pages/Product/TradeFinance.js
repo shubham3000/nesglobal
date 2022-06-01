@@ -88,7 +88,8 @@ export default function TradeFinance() {
 <section>
         <div className="container mt-15">
             <div className="row">
-            <div className="col-lg-6 d-flex flex-column justify-content-center">
+              
+              <div className="col-lg-6 d-flex flex-column justify-content-center">
                     <div className="product-topic1 mb-4">
                         <h4>HOW IT WORKS</h4>
                     </div>
@@ -237,6 +238,11 @@ export default function TradeFinance() {
 <section>
         <div className="container mt-15">
             <div className="row">
+            <div className="col-lg-6">
+                    <div className="product-img">
+                        <img src='../images/product/trade_finance/only.png' />
+                    </div>
+                </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
                     <div className="product-topic1 mb-4">
                         <h4>PER	SHIPMENT</h4>
@@ -247,20 +253,14 @@ export default function TradeFinance() {
                     <div className="product-paragraph">
                         <p style={{color: "#737171"}}>Choose	which	shipments	to	protect—and	how	with	options	like	retail	value	coverage.	Pay	per	use	to	precisely	match	coverage	with	your	changing	needs.</p>
                     </div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="product-img">
-                        <img src='../images/product/trade_finance/only.png' />
+                    <div className="learn-more-btn mt-4">
+                      <button type='submit'>Request	a	Demo</button>
                     </div>
                 </div>
 
                 <div className="mt-15"></div>
 
-                <div className="col-lg-6">
-                    <div className="product-img">
-                        <img src='../images/product/trade_finance/automated.png' />
-                    </div>
-                </div>
+
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
                     <div className="product-topic1 mb-4">
                         <h4>CLAIMS	PROCESS</h4>
@@ -270,6 +270,11 @@ export default function TradeFinance() {
                     </div>
                     <div className="product-paragraph">
                         <p style={{color: "#737171"}}>Submit	your	claim	in	minutes.	The	NES	Platform	uses	your	shipping	data	to	automate	and	validate.	Message	threads	and	updates	attach	to	claims	and	shipments	for	real	time tracking.	If	you	need	a	human	along	the	way,	just	ask.</p>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div className="product-img">
+                        <img src='../images/product/trade_finance/automated.png' />
                     </div>
                 </div>
             </div>
