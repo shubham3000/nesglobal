@@ -52,13 +52,6 @@ export default function header(props) {
                                 </div>    
                             </li>
                             <li>
-                                <NavLink to="/" >Use Cases<i class="fal fa-angle-down"></i>
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="/" >Developers<i class="fal fa-angle-down"></i></NavLink>
-                            </li>
-                            <li>
                                 <NavLink to="/" >Resources<i class="fal fa-angle-down"></i></NavLink>
                             </li>
                             <li>
@@ -66,15 +59,9 @@ export default function header(props) {
                                 <NavLink to="/" className="dropbtn">Company<i class="fal fa-angle-down"></i></NavLink>
                                     <div className='dropdown-content'>
                                         <a href='/Company/AboutUs'>About Us</a>
-                                        <a href='#'>Leadership</a>
-                                        <a href='#'>Engineering</a>
-                                        <a href='#'>Careers</a>
-                                        <a href='#'>Contact Us</a>
-                                        <a href='#'>Nescare.org<i class="fal fa-angle-right"></i>
-                                            <div className="sub-dropdown-content">
-                                                <a href='#'></a>    
-                                            </div>
-                                        </a>
+                                        <a href='/Company/Leadership'>Leadership</a>
+                                        <a href='/Company/Engineering'>Engineering</a>
+                                        <a href='/Company/ContactUs'>Contact Us</a>
                                     </div>
                                 </div>
                             </li>

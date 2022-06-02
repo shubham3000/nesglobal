@@ -129,6 +129,7 @@ nav
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 6px;
 }
 
 .menu-list .dropdown .dropdown-content a {
@@ -143,6 +144,7 @@ nav
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  border-radius: 6px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -163,10 +165,12 @@ nav
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 6px;
 }
 
 .sub-dropdown-content a:hover {
     background-color: #ddd;
+    border-radius: 6px;
 }
   
 .dropdown .dropdown-content a:hover .sub-dropdown-content{
@@ -375,7 +379,8 @@ nav
 
 /*Footer CSS*/
 
-.social-icon i
+.social-icon i,
+.team-social-links i
 {
     color: #FFFFFF;
     align-items: center;
@@ -627,4 +632,81 @@ footer hr
     font-size: 16px;
     line-height: 24px;
     color: #0060BE;
+}
+
+.trade h2,
+.team h2,
+.global h2
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #403F3E;
+}
+
+.trade-paragraph p,
+.bio h5
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D7886;
+}
+
+.trade-head h3,
+.team-name h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #595858;
+}
+
+.team-post h4,
+.address-head h4
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.team-lead
+{
+    padding: 0 8rem 3rem;
+    margin-top: -200px;
+}
+
+.contactus
+{
+    background: #FFFFFF;
+    padding: 70px 40px;
+}
+
+.contact-head h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    color: #403F3E;
+}
+
+.address p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #6D7886;
 }

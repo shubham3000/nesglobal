@@ -8,7 +8,7 @@ export default function TradeFinance() {
     <>
     <Header/>
 
-<section style={{ background: "url('../images/product/trade_finance/tradefinancehomebg.png')" }}>
+<section style={{ background: "url('../images/product/trade_finance/tradefinancehomebg.png')", backgroundSize: "cover" }}>
     <div className="container">
         <div className="top-section d-flex align-items-center mb-5">
             <div className="row">

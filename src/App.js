@@ -16,6 +16,9 @@ import ProductClassification from "./Pages/Product/ProductClassification";
 import CargoInsurance from "./Pages/Product/CargoInsurance";
 
 import AboutUs from "./Pages/Company/AboutUs";
+import Leadership from "./Pages/Company/Leadership";
+import Engineering from "./Pages/Company/Engineering";
+import ContactUs from "./Pages/Company/ContactUs";
 
 function App() {
   return (
@@ -37,6 +40,9 @@ function App() {
         <Route path="/Product/ProjectAirAndOceanCharters" element={<ProjectAirAndOceanCharters/>}/>
 
         <Route path="/Company/AboutUs" element={<AboutUs/>}/>
+        <Route path="/Company/Leadership" element={<Leadership/>}/>
+        <Route path="/Company/Engineering" element={<Engineering/>}/>
+        <Route path="/Company/ContactUs" element={<ContactUs/>}/>
         
       </Routes>
     </Router>
