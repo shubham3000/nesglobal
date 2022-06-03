@@ -10,7 +10,7 @@ export default function ContactUs() {
 
     <section style={{ background: "#10243E" }}>
         <div className="container">
-            <div className="top-section" style={{paddingTop: "90px"}}>
+            <div className="top-section" style={{paddingTop: "90px", height: "690px"}}>
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="contactus">
@@ -34,7 +34,42 @@ export default function ContactUs() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-8"></div>
+                    <div className="col-lg-8">
+                        <div className="contactus">
+                            <div className="row">
+                                <div className="col-lg-6 d-flex flex-column">
+                                    <label for="firstname" className='mb-2'>First Name</label>
+                                    <input type="text" placeholder='Enter your first name' />
+                                </div>
+                                <div className="col-lg-6 d-flex flex-column">
+                                    <label for="emailaddress" className='mb-2'>Email Address</label>
+                                    <input type="email" placeholder='Enter your email address' />
+                                </div>
+
+                                <div className="mb-4"></div>
+
+                                <div className="col-lg-6 d-flex flex-column">
+                                    <label for="mobilenumber" className='mb-2'>Mobile Number</label>
+                                    <input type="tel" placeholder='Enter Mobile Number' />
+                                </div>
+                                <div className="col-lg-6 d-flex flex-column">
+                                    <label for="company" className='mb-2'>Company</label>
+                                    <input type="text" placeholder='Enter Company Name' />
+                                </div>
+
+                                <div className="mb-4"></div>
+
+                                <div className="col-lg-12 d-flex flex-column">
+                                    <label for="message" className='mb-2'>Message</label>
+                                    <textarea placeholder='Enter Your Message' />
+                                </div>
+
+                                <div className="send-btn mt-4">
+                                    <button type='submit'>Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
