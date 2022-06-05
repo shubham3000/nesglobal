@@ -19,6 +19,11 @@ import AboutUs from "./Pages/Company/AboutUs";
 import Leadership from "./Pages/Company/Leadership";
 import Engineering from "./Pages/Company/Engineering";
 import ContactUs from "./Pages/Company/ContactUs";
+import Nescare from "./Pages/Company/Nescare/Nescare";
+import Reachcarbon from "./Pages/Company//Nescare/Reachcarbon";
+import Services from "./Pages/Company/Nescare/Services";
+import Inventory from "./Pages/Company/Nescare/Inventory";
+import ExcessInventory from "./Pages/Company/Nescare/ExcessInventory";
 
 function App() {
   return (
@@ -43,6 +48,11 @@ function App() {
         <Route path="/Company/Leadership" element={<Leadership/>}/>
         <Route path="/Company/Engineering" element={<Engineering/>}/>
         <Route path="/Company/ContactUs" element={<ContactUs/>}/>
+        <Route path="/Company/Nescare" element={<Nescare/>}/>
+        <Route path="/Company/Reachcarbon" element={<Reachcarbon/>}/>
+        <Route path="/Company/Services" element={<Services/>}/>
+        <Route path="/Company/Inventory" element={<Inventory/>}/>
+        <Route path="/Company/ExcessInventory" element={<ExcessInventory/>}/>
         
       </Routes>
     </Router>

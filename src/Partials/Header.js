@@ -5,6 +5,7 @@ import { Link,NavLink, useParams } from 'react-router-dom'
 export default function header(props) {
     const showNav = props.showNav??true;
     const isWhite = props.isWhite??false;
+    const ContactNav=props. ContactNav??false;
 
   return (
     <>
@@ -62,6 +63,15 @@ export default function header(props) {
                                         <a href='/Company/Leadership'>Leadership</a>
                                         <a href='/Company/Engineering'>Engineering</a>
                                         <a href='/Company/ContactUs'>Contact Us</a>
+                                        <a href='#'>Nescare.org<i class="fal fa-angle-right"></i>
+                                            <div className="sub-dropdown-content">
+                                                <a href='/Company/Nescare'>Nescare.org</a>
+                                                <a href='/Company/Reachcarbon'>Reach carbon neautrality</a>
+                                                <a href='/Company/Services'>Get Discounted and Pro Bono Services</a>
+                                                <a href='/Company/Inventory'>Donate Excess Inventory</a>
+                                                <a href='/Company/ExcessInventory'>Donate Excess Inventory</a>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </li>
@@ -80,6 +90,12 @@ export default function header(props) {
                             </li>
                         </ul>
                     </div>
+                :""}
+
+                {ContactNav?
+                <div className="contact-nav">
+                    <button type='submit'>Contact us</button>
+                </div>
                 :""}
             </div>
         </div>

@@ -80,6 +80,23 @@ nav
     font-family: 'Prompt', sans-serif;
 }
 
+.contact-nav button,
+.donate-btn button
+{
+    background: #24C6AF;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+
+
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
 .menu ul li a
 {
     font-family: 'Epilogue', sans-serif;
@@ -625,7 +642,8 @@ footer hr
     color: #0060BE;
 }
 
-.further-learn-more a
+.further-learn-more a,
+.ways-learn-more a
 {
     font-family: 'Prompt';
     font-style: normal;
@@ -633,6 +651,12 @@ footer hr
     font-size: 16px;
     line-height: 24px;
     color: #0060BE;
+}
+
+.further-learn-more a,
+.ways-learn-more a i
+{
+    padding-left: 1rem;
 }
 
 .trade h2,
@@ -740,6 +764,7 @@ footer hr
 {
     height: 115px;
     padding-top: 15px;
+    resize: none;
 }
 
 .contactus .send-btn button
@@ -763,4 +788,78 @@ footer hr
     font-size: 18px;
     line-height: 150%;
     color: #595858;
+}
+
+.nescare-heading h1
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.nescare-paragraph p,
+.ways-paragraph p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.ways-heading h1
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 6rem;
+}
+
+.ways-tag img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.ways-topic h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.ways-paragraph p
+{
+    width: 247px;
+}
+
+.copyright
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.copyright .rights h5,
+.copyright .terms h5
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #737171;
 }
