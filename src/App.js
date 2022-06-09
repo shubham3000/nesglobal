@@ -25,6 +25,10 @@ import Services from "./Pages/Company/Nescare/Services";
 import Inventory from "./Pages/Company/Nescare/Inventory";
 import ExcessInventory from "./Pages/Company/Nescare/ExcessInventory";
 
+import Terms from "./Pages/TermsAndCondition/Terms";
+import OceanTnC from "./Pages/TermsAndCondition/OceanTnC";
+import Privacy from "./Pages/TermsAndCondition/Privacy";
+
 function App() {
   return (
     
@@ -53,6 +57,10 @@ function App() {
         <Route path="/Company/Services" element={<Services/>}/>
         <Route path="/Company/Inventory" element={<Inventory/>}/>
         <Route path="/Company/ExcessInventory" element={<ExcessInventory/>}/>
+
+        <Route path="/terms" element={<Terms/>}/>
+        <Route path="/TermsAndCondition/OceanTnC" element={<OceanTnC/>}/>
+        <Route path="/Privacy" element={<Privacy/>}/>
         
       </Routes>
     </Router>

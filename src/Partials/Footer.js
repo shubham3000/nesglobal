@@ -119,11 +119,11 @@ export default function Footer() {
                     <hr/>
 
                     <div className="footer-bottom d-flex justify-content-between">
-                        <div className="copyright">
+                        <div className="copyrights">
                             <p>Copyright © 2022 Flexport, Inc.</p>
                         </div>
                         <div className="policy">
-                            <p>Terms of Use / Privacy Policy</p>
+                            <a href='/terms'><p>Terms of Use / Privacy Policy</p></a>
                         </div>
                     </div>
                 </div>
