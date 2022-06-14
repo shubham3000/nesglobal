@@ -1,11 +1,102 @@
 import React from 'react'
-import {Link, NavLink, useParams} from 'react-router-dom'
+import {Link, NavLink, Route, useParams} from 'react-router-dom'
 import {Navbar, Offcanvas, Nav, Button, Container, NavDropdown, Form, FormControl} from "react-bootstrap";
+import '../Styles/Header.scss';
+import AboutUs from "../Pages/Company/AboutUs";
+import Leadership from "../Pages/Company/Leadership";
+import Engineering from "../Pages/Company/Engineering";
+import ContactUs from "../Pages/Company/ContactUs";
+import Nescare from "../Pages/Company/Nescare/Nescare";
+import Services from "../Pages/Company/Nescare/Services";
+import Inventory from "../Pages/Company/Nescare/Inventory";
 
 
 export default function header(props) {
     const showNav = props.showNav ?? true;
     const isWhite = props.isWhite ?? false;
+    const menuItems = [
+        {
+            title: 'Products',
+            link: '/product',
+            children: [
+                {
+                    title: 'Nes Platform',
+                    link: '/nes-platform',
+                },
+                {
+                    title: 'Visiblity',
+                    link: '/visibility',
+                },
+                {
+                    title: 'Customs',
+                    link: '/customs',
+                },
+                {
+                    title: 'Air Freight',
+                    link: '/air-freight',
+                },
+                {
+                    title: 'Ocean Freight',
+                    link: '/ocean-freight',
+                },
+                {
+                    title: 'Trade Finance',
+                    link: '/trade-freight',
+                },
+            ]
+        },
+        {
+            title: 'Use Cases',
+            link: '#docs'
+        },
+        {
+            title: 'Developers',
+            link: '#custom-bar'
+        },
+        {
+            title: 'Resources',
+            link: '#contact'
+        },
+        {
+            title: 'Company',
+            link: '/company',
+            children: [
+                {
+                    title: 'About Us',
+                    link: '/about-us',
+                },
+                {
+                    title: 'Engineering',
+                    link: '/engineering',
+                },
+                {
+                    title: 'Contact Us',
+                    link: '/contact-us',
+                },
+                {
+                    title: 'Nescare',
+                    link: '/nescare',
+                },
+                {
+                    title: 'Reach Carbon',
+                    link: '/reach-carbon',
+                },
+                {
+                    title: 'Services',
+                    link: '/services',
+                },
+                {
+                    title: 'Inventory',
+                    link: '/inventory',
+                },
+                {
+                    title: 'Excess Inventory',
+                    link: '/excess-inventory',
+                }
+            ]
+        },
+
+    ];
 
     return (
         <>
@@ -20,45 +111,43 @@ export default function header(props) {
                         placement="end"
                     >
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
-                                Offcanvas
-                            </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-center flex-grow-1 pe-3">
-                                <NavDropdown
-                                    title="Products"
-                                    id={`offcanvasNavbarDropdown-expand-md`}
-                                >
-                                <NavDropdown.Item href="/Product/Nesplatform">Nes Platform</NavDropdown.Item>
+                                {
+                                    menuItems.map(item => {
+                                        if (item.children != undefined) {
+                                            return <NavDropdown
+                                                title={item.title}
+                                                id={`offcanvasNavbarDropdown-expand-md`}
+                                            >
+                                                {
+                                                    item.children.map(dropdown => <Link className={"dropdown-item"}
+                                                                                        to={item.link + dropdown.link}>{dropdown.title}</Link>
+                                                    )
+                                                }
 
-                                </NavDropdown>
-                                <Nav.Link href="#action2">Use Cases</Nav.Link>
-                                <Nav.Link href="#action2">Use Cases</Nav.Link>
-                                <Nav.Link href="#action2">Use Cases</Nav.Link>
-                                <NavDropdown
-                                    title="Dropdown"
-                                    id={`offcanvasNavbarDropdown-expand-md`}
-                                >
-                                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action4">
-                                        Another action
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Divider/>
-                                    <NavDropdown.Item href="#action5">
-                                        Something else here
-                                    </NavDropdown.Item>
-                                </NavDropdown>
+                                            </NavDropdown>
+                                        } else {
+                                            return <Link to={item.link} className="nav-link">{item.title}</Link>
+                                        }
+
+                                    })
+                                }
                             </Nav>
-                            <Form className="d-flex">
-                                <FormControl
-                                    type="search"
-                                    placeholder="Search"
-                                    className="me-2"
-                                    aria-label="Search"
-                                />
-                                <Button variant="outline-success">Search</Button>
-                            </Form>
+                            {showNav ?
+                                <div className="search-nav">
+                                    <ul>
+                                        <li>
+                                            <a href='#'><i class="far fa-search"
+                                                           style={{color: isWhite ? "#E6E5E5" : '#0060BE'}}></i></a>
+                                        </li>
+                                        <li>
+                                            <button type='submit'>Get Started</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                : ""}
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Container>
