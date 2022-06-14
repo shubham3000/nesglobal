@@ -5,7 +5,7 @@ import Header from '../../Partials/Header'
 export default function AirFreight() {
   return (
     <>
-    <Header  showNav={true} isWhite={true}/>
+    <Header  showNav={true} isWhite={false}/>
 
     <section style={{background: "#10243E"}}>
         <div className="container">
@@ -26,7 +26,7 @@ export default function AirFreight() {
                         </div>
                     </div>
                     <div className="col-lg-5">
-                    <img src='../images/product/air_freight/airfreighthome.png' />
+                    <img src='/images/product/air_freight/airfreighthome.png' />
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function AirFreight() {
         <div className="col-lg-4">
           <div className="product-box">
             <div className="product-tag">
-              <img src='../images/product/air_freight/stick.png' />
+              <img src='/images/product/air_freight/stick.png' />
             </div>
             <div className="product-tag-head mt-3">
               <h4>Stick	to	the	Plan	with	Predictable	Bookings</h4>
@@ -54,7 +54,7 @@ export default function AirFreight() {
         <div className="col-lg-4">
           <div className="product-box">
             <div className="product-tag">
-              <img src='../images/product/air_freight/catch.png' />
+              <img src='/images/product/air_freight/catch.png' />
             </div>
             <div className="product-tag-head mt-3">
               <h4>Catch	Issues	in	Time	for	Takeoff</h4>
@@ -70,7 +70,7 @@ export default function AirFreight() {
         <div className="col-lg-4">
           <div className="product-box">
             <div className="product-tag">
-              <img src='../images/product/air_freight/see.png' />
+              <img src='/images/product/air_freight/see.png' />
             </div>
             <div className="product-tag-head mt-3">
               <h4>Brokers	Who	Are	More	Than	Brokers</h4>

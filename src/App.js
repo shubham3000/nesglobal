@@ -36,31 +36,31 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         
-        <Route path="/Product/NesPlatform" element={<Nesplatform/>}/>
-        <Route path="/Product/Visibility" element={<Visibility/>}/>
-        <Route path="/Product/Customs" element={<Customs/>}/>
-        <Route path="/Product/AirFreight" element={<AirFreight/>}/>
-        <Route path="/Product/OceanFreight" element={<OceanFreight />}/>
-        <Route path="/Product/TradeFinance" element={<TradeFinance/>}/>
-        <Route path="/Product/TradeAdvisory" element={<TradeAdvisory/>}/>
-        <Route path="/Product/Dutydrawbacks" element={<Dutydrawbacks/>}/>
-        <Route path="/Product/ProductClassification" element={<ProductClassification/>}/>
-        <Route path="/Product/CargoInsurance" element={<CargoInsurance/>}/>
-        <Route path="/Product/ProjectAirAndOceanCharters" element={<ProjectAirAndOceanCharters/>}/>
+        <Route path="/product/nes-platform" element={<Nesplatform/>}/>
+        <Route path="/product/visibility" element={<Visibility/>}/>
+        <Route path="/product/customs" element={<Customs/>}/>
+        <Route path="/product/air-freight" element={<AirFreight/>}/>
+        <Route path="/product/ocean-freight" element={<OceanFreight />}/>
+        <Route path="/product/trade-finance" element={<TradeFinance/>}/>
+        <Route path="/product/trade-advisory" element={<TradeAdvisory/>}/>
+        <Route path="/product/duty-drawbacks" element={<Dutydrawbacks/>}/>
+        <Route path="/product/product-classification" element={<ProductClassification/>}/>
+        <Route path="/product/cargo-insurance" element={<CargoInsurance/>}/>
+        <Route path="/product/project-air-and-ocean-charters" element={<ProjectAirAndOceanCharters/>}/>
 
-        <Route path="/Company/AboutUs" element={<AboutUs/>}/>
-        <Route path="/Company/Leadership" element={<Leadership/>}/>
-        <Route path="/Company/Engineering" element={<Engineering/>}/>
-        <Route path="/Company/ContactUs" element={<ContactUs/>}/>
-        <Route path="/Company/Nescare" element={<Nescare/>}/>
-        <Route path="/Company/Reachcarbon" element={<Reachcarbon/>}/>
-        <Route path="/Company/Services" element={<Services/>}/>
-        <Route path="/Company/Inventory" element={<Inventory/>}/>
-        <Route path="/Company/ExcessInventory" element={<ExcessInventory/>}/>
+        <Route path="/company/about-us" element={<AboutUs/>}/>
+        <Route path="/company/leadership" element={<Leadership/>}/>
+        <Route path="/company/engineering" element={<Engineering/>}/>
+        <Route path="/company/contact-us" element={<ContactUs/>}/>
+        <Route path="/company/nescare" element={<Nescare/>}/>
+        <Route path="/company/reach-carbon" element={<Reachcarbon/>}/>
+        <Route path="/company/services" element={<Services/>}/>
+        <Route path="/company/inventory" element={<Inventory/>}/>
+        <Route path="/company/excess-inventory" element={<ExcessInventory/>}/>
 
         <Route path="/terms" element={<Terms/>}/>
-        <Route path="/TermsAndCondition/OceanTnC" element={<OceanTnC/>}/>
-        <Route path="/Privacy" element={<Privacy/>}/>
+        <Route path="/terms-and-condition/ocean-tnc" element={<OceanTnC/>}/>
+        <Route path="/privacy" element={<Privacy/>}/>
         
       </Routes>
     </Router>
