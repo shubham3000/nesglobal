@@ -5,7 +5,7 @@ import Header from '../../Partials/Header'
 export default function Nesplatform() {
   return (
     <>
-    <Header showNav={true} isWhite={true} />
+    <Header showNav={true} isWhite={false} />
 
     <section style={{background: "#10243E"}}>
         <div className="container">

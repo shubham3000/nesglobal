@@ -6,7 +6,7 @@ import Header from '../../Partials/Header'
 export default function TradeFinance() {
   return (
     <>
-    <Header/>
+    <Header showNav={true} isWhite={false}/>
 
 <section style={{ background: "url('../images/product/trade_finance/tradefinancehomebg.png')", backgroundSize: "cover" }}>
     <div className="container">

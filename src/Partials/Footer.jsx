@@ -8,7 +8,7 @@ export default function Footer() {
     <footer>
         <section style={{backgroundColor: "#10243E"}}>
             <div className="container">
-                <div className="footer p-5">
+                <div className="footer py-5">
                     <div className="footer-top d-flex justify-content-between">
                         <div className="footer-logo">
                             <Link to={"/"}><img src='/images/Home/logowhite.png' height={25} width={160} /></Link>
@@ -40,39 +40,6 @@ export default function Footer() {
                                         <li>Trade Advisory</li>
                                         <li>Duty Drawback</li>
                                         <li>Cargo Insurance</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-2">
-                                <div className="footer-heading mb-4">
-                                    <h5>USE CASES</h5>
-                                </div>
-                                <div className="footer-list">
-                                    <ul>
-                                        <li>eCommerce</li>
-                                        <li>High Value Goods</li>
-                                        <li>Global Brands</li>
-                                        <li>Wholesale Distribution</li>
-                                        <li>Nonprofits</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-2">
-                                <div className="footer-heading mb-4">
-                                    <h5>DEVELOPERS</h5>
-                                </div>
-                                <div className="footer-list">
-                                    <ul>
-                                        <li>Developer Portal</li>
-                                        <li>API Documentation</li>
-                                        <li>API Tutorials</li>
-                                        <li>EDI Documentation</li>
-                                        <li>Community</li>
-                                        <li>API Status</li>
-                                        <li>Account</li>
-                                        <li>Flexport Platform</li>
                                     </ul>
                                 </div>
                             </div>

@@ -41,7 +41,7 @@ export default function header(props) {
                 },
                 {
                     title: 'Trade Finance',
-                    link: '/trade-freight',
+                    link: '/trade-finance',
                 },
             ]
         },
@@ -100,7 +100,7 @@ export default function header(props) {
 
     return (
         <>
-            <Navbar key='md' bg="light" expand='md' style={{background: isWhite ? '#FFFFFF' : '#10243E'}}>
+            <Navbar key='md' expand='md' style={{background: isWhite ? '#10243E' : '#FFFFFF'}}>
                 <Container>
                     <Navbar.Brand href="/"><img src={isWhite ? "/images/Home/logowhite1.png" : "/images/Home/logo.png"}
                                                 height={20} width={150}/></Navbar.Brand>
@@ -113,7 +113,7 @@ export default function header(props) {
                         <Offcanvas.Header closeButton>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav className="justify-content-center flex-grow-1 pe-3">
+                            <Nav className="justify-content-center flex-grow-1 pe-3" style={{color: isWhite ? "#E6E5E5" : '#0060BE'}}>
                                 {
                                     menuItems.map(item => {
                                         if (item.children != undefined) {

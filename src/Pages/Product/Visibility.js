@@ -7,16 +7,17 @@ export default function Visibility() {
     <>
       <Header showNav={true} isWhite={true} />
 
-      <section style={{ background: "#10243E" }}>
+      <section style={{ backgroundImage: "url(/images/product/visibility/home.png)", backgroundSize: "cover", opacity: "5" }}>
         <div className="container">
           <div className="top-section d-flex align-items-center">
             <div className="row">
               <div className="col-lg-7">
                 <div className="product-topic">
-                  <h4>Products</h4>
+                  <h4>Visibility</h4>
                 </div>
                 <div className="product-heading mt-4">
-                  <h1>Easy to use… lets work together…</h1>
+                  <h1>Easy to use, <br/>
+                    lets work together</h1>
                 </div>
                 <div className="product-paragraph mt-4">
                   <p>The	NES	platform	is	created	in	a	way	to	capture	all	the	critical	elements	of	shipping,	origin,	destination,	schedules,	booking,	SLI,	Purchase	order	tracking,	milestones	and	exceptions	and	more…	all	to	enable	your	supply	chain,	drive	collaborations	with	shipping	lines	and	partner	with	you	as	your	reliable	partner.</p>
@@ -37,10 +38,10 @@ export default function Visibility() {
                     <img src='../images/product/visibility/location.png' />
                   </div>
                   <div className="product-tag-head mt-3">
-                    <h4>Track	and	Trace,	All	in	One	Place</h4>
+                    <h4>Tracking and Visibility a Critical imperative</h4>
                   </div>
                   <div className="product-tag-paragraph mt-3">
-                    <p>Track	vessels,	containers,	and	goods	down	to	the	SKU.	The	Flexport	Platform	gives	you	and	your	team	end-to-end	visibility	and	control	anywhere	in	the	world.</p>
+                    <p>The NES Platform ensures that you can track your container so you are in control of the communication to deliver reliability to your customers. This aligns to the Nes strategy of delivering to a seamless flow via collaboration and support.</p>
                   </div>
                 </div>
               </div>
@@ -51,10 +52,11 @@ export default function Visibility() {
                     <img src='../images/product/visibility/manage.png' />
                   </div>
                   <div className="product-tag-head mt-3">
-                    <h4>Manage	Your	Supply	Chain	by	Exception</h4>
+                    <h4>Better Control Via Managing Exceptions</h4>
                   </div>
                   <div className="product-tag-paragraph mt-3">
-                    <p>Protect	your	supply	chain—and	your	sanity—with	exception	management	backed	by	your Flexport	team.	If	ocean	freight	cargo	rolls	or	sailings	change,	you’ll	know	in	real	time	while	Flexport	works	to	restore	schedules.</p>
+                    <p>Seamless End to end flow is made possible via better exception management via real time updates. This is made possible via the NES product and ops teams and integrationn with leading shipping
+                        lines to the NES platform.</p>
                   </div>
                 </div>
               </div>
@@ -65,10 +67,10 @@ export default function Visibility() {
                     <img src='../images/product/visibility/data.png' />
                   </div>
                   <div className="product-tag-head mt-3">
-                    <h4>Data	That	Almost	Goes	Overboard</h4>
+                    <h4>Data leads to customization</h4>
                   </div>
                   <div className="product-tag-paragraph mt-3">
-                    <p>Surface	insights	in	minutes	with	searchable	data.	Examine	transit	times	and	landed	costs.	Master	container	utilization	to	ship	more	for	less.	Make	supply	chain	data	your	competitive advantage.</p>
+                    <p>By transacting on the NES platform, one can toggle with data annd use the same to build rules to drive optimization and create an competitive advantage for their products.</p>
                   </div>
                 </div>
               </div>
@@ -146,7 +148,7 @@ export default function Visibility() {
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <div className="product-topic1 mb-4">
-                <h4>ORDER</h4>
+                <h4>STRUCTURE</h4>
               </div>
               <div className="product-heading1">
                 <h3 style={{ color: "#403F3E" }}>Start	Upstream	with	Order	Management</h3>
@@ -161,7 +163,7 @@ export default function Visibility() {
 
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <div className="product-topic1 mb-4">
-                <h4>REPORTING</h4>
+                <h4>DATA</h4>
               </div>
               <div className="product-heading1">
                 <h3 style={{ color: "#403F3E" }}>Leagues	of	Data,	Packaged	for You</h3>
@@ -186,7 +188,7 @@ export default function Visibility() {
             </div>
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <div className="product-topic1 mb-4">
-                <h4>INSIGHTS</h4>
+                <h4>PLANNING</h4>
               </div>
               <div className="product-heading1">
                 <h3 style={{ color: "#403F3E" }}>A	Deep	Dive	Your	Whole	Team	Can	Take</h3>
@@ -216,107 +218,6 @@ export default function Visibility() {
             <div className="reday-btn mt-3">
               <button type='submit' style={{ background: "#FFFFFF", color: "#0C1E35" }}>Request A Demo</button>
             </div>
-          </div>
-        </div>
-      </section>
-
-
-      {/* FAQS */}
-
-      <section class="product-faq mt-15 mb-15">
-        <div class="container">
-          <div className="product-topic1 mb-5 text-center">
-                <h4>NEED ANY HELP?</h4>
-          </div>
-          <div className="product-faq-heading">
-           <h3 class="text-center" style={{color: "#403F3E"}}>Frequently Asked Questions</h3>
-          </div>
-        
-          <div class="accordion accordion-flush product-faq__accordian" id="product-faq__accordian">
-
-            <div class="accordion accordion-flush product-faq__accordian" id="product-faq__accordian">
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                    aria-expanded="false" aria-controls="flush-collapseOne">
-                    I	see	your	office	locations	don't	match	with	my	physical	location.	Can	I	still	use	NES?
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingFiveOne">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFiveOne"
-                    aria-expanded="false" aria-controls="flush-collapseFiveOne">
-                    Do	vendors	have	to	book	via	the	Platform?
-                  </button>
-                </h2>
-                <div id="flush-collapseFiveOne" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingFiveOne" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-                    The	NES	Platform	is	designed	to	streamline	booking	submission	between	you	and	your	supplier.	If	your	supplier	chooses	not	to	use	the	Platform	to	submit	and	manage	bookings,	Flexport	is	able	to	accept	bookings	via	email.
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingFour">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                    aria-expanded="false" aria-controls="flush-collapseFour">
-                    How	long	does	it	take	to	get	set	up	with	NES?
-                  </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingTen">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
-                    aria-expanded="false" aria-controls="flush-collapseTen">
-                    What	client	systems	do	you	integrate	with?
-                  </button>
-                </h2>
-                <div id="flush-collapseTen" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTen" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Do	you	have	a	minimum	number	of	shipments	that	we	must	book	with	you?
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </section>

@@ -4,6 +4,7 @@ import './Styles/global.css'
 import Home from './Pages/Home';
 
 import Nesplatform from './Pages/Product/Nesplatform';
+import NesDigitalPlatform from './Pages/Product/NesDigitalPlatform';
 import Visibility from './Pages/Product/Visibility';
 import Customs from './Pages/Product/Customs';
 import AirFreight from "./Pages/Product/AirFreight";
@@ -36,7 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         
-        <Route path="/product/nes-platform" element={<Nesplatform/>}/>
+        <Route path="/product/nes-platform" element={<NesDigitalPlatform/>}/>
         <Route path="/product/visibility" element={<Visibility/>}/>
         <Route path="/product/customs" element={<Customs/>}/>
         <Route path="/product/air-freight" element={<AirFreight/>}/>

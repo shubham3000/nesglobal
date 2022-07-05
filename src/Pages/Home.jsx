@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../Partials/Footer'
 import Header from '../Partials/Header'
+import Signup from '../Partials/Signup'
 
 export default function Home() {
   return (
@@ -32,171 +33,92 @@ export default function Home() {
     </section>
 
 
-{/* supply chain */}
+{/* key to sucess */}
     <section>
-        <div className="container mt-5">
-            <div className="section-head mb-3">
-                <h4>SUPPLY CHAIN</h4>
-            </div>
+        <div className="container my-5">
             <div className="row">
-                <div className="col-lg-6">
-                    <div className="supply-chain-head">
-                        <h3>Find Out What Your Supply Chain Can Really Do</h3>
+                <div className="col-lg-8 d-flex flex-column justify-content-center">
+                    <div className="keySucess-head">
+                        <h3>Key to Success</h3>
                     </div>
-                    <div className="supply-chain-build p-5">
-                        <div className="supply-chain-build--img">
-                            <img src='images/Home/umbrella.png' height={40} width={40} />
-                        </div>
-                        <div className="supply-chain-build--details">
-                            <h3>Build Resilience</h3>
-                            <p>Insure all your cargo or cover it by the shipment. Access capital for logistics costs & focus on opportunity</p>
-                            <a href='#'>Learn More <i class="fas fa-angle-right"></i></a>
-                        </div>
-                    </div>
+                    <div className="keySucess-paragraph">
+                        <p>Supply Chain plays a vital role in delivering economic prosperity. A strong logistics service provider ensures his customer is empowered to operate on a seamless ecosystem through which he can export his products or import raw materials use data from his historical transactions to make informed decisions and build sustainable relationships. Partner with Nes Global to get full control of your supply chain.
+                            </p>
+                    </div> 
                 </div>
-                <div className="col-lg-6">
-                    <img src='images/Home/supplychain.png' />
+                <div className="col-lg-4">
+                    <img src='images/Home/keySucess.png' />
                 </div>
             </div>
         </div>
     </section>
 
+{/* Supply chain */}
 
-{/* find */}
-    <section>
-        <div className="container mt-5">
-            <div className="row">
-                <div className="col-lg-6 p-5" style={{backgroundColor: "#0060BE"}}>
-                    <div className="find">
-                        <div className="find-heading">
-                            <h3 style={{color: "#FFFFFF"}}>Find Ship, Track, & Scale in Just a Few Clicks</h3>
-                        </div>
-                        <div className="find-paragraph">
-                            <p style={{color: "#FFFFFF"}}>With logistics partners in more than 80 countries, companies of any size can transport goods to and from more places</p>
-                        </div>
-                    </div>
 
-                    <div className="find mt-4">
-                        <div className="find-heading">
-                            <h3 style={{color: "#FFFFFF"}}>80+ countries</h3>
-                        </div>
-                        <div className="find-paragraph">
-                            <p style={{color: "#FFFFFF"}}>with Flexport Platform users</p>
-                        </div>
+<section>
+    <div className="container mt-15 mb-5">
+        <div className="supply-chain__head text-center mb-15">
+            <h3>Deep Diving Into Your Supply Chain</h3>
+        </div>
+        <div className="row">
+            <div className="col-lg-6">
+                <img src='images/Home/nesplatformimage.png' />
+            </div>
+            <div className="col-lg-6 p-5 d-flex flex-column justify-content-center">
+                <div className="supply-box p-5">
+                    <div className="supply-paragrapgh">
+                        <p>After your Order is ready for dispatch, send your pickup request to the Nes online and leave it to the NES ops team to execute
+                            </p>
                     </div>
-
-                    <div className="find mt-4">
-                        <div className="find-heading">
-                            <h3 style={{color: "#FFFFFF"}}>265K+ shipping docs</h3>
-                        </div>
-                        <div className="find-paragraph">
-                            <p style={{color: "#FFFFFF"}}>digitized for speed and accuracy</p>
-                        </div>
-                    </div>
-
-                    <div className="find mt-4">
-                        <div className="find-heading">
-                            <h3 style={{color: "#FFFFFF"}}>4.8M+ milestones</h3>
-                        </div>
-                        <div className="find-paragraph">
-                            <p style={{color: "#FFFFFF"}}>tracked annually for greater shipment visibility</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-6 px-0">
-                    <div className="find">
-                        <div className="find-img">
-                            <img src='images/Home/findship.png' height={570} width={684} />
-                        </div>
+                    <div className="supply-learn-more">
+                        <a href='#'>Learn More<i class="far fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
-{/* case study */}
-    <section>
-        <div className="container mt-15">
-            <div className="section-head mb-3 text-center">
-                <h4>CASE STUDY</h4>
-            </div>
-            <div className="case-study-head text-center">
-                <h3>See Why 10,000+ Companies Choose Flexport</h3>
-            </div>
-
-            <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                    <div className="case">
-                        <div className="case-header">
-                            <h3 style={{color: "#3D4B5D"}}>What Could You Achieve with Your Supply Chain in One View?</h3>
-                        </div>
-                        <div className="case-paragraph mt-4">
-                            <p>At Georgia-Pacific, replacing thousands of email updates and attachments with a single view led to 100% on-time customs filings. That means faster arrivals and lower landed costs. Now, they extend the same visibility to their own customers.</p>
-                        </div>
-                        <div className="case-btn d-flex mt-5">
-                            <div className="read-btn">
-                                <button type='submit'>Read Case Study</button>
-                            </div>
-                            <div className="get-started-btn">
-                                <button type='submit'>Get Started</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-6 col-sm-12 px-0">
-                    <div className="case-img">
-                        <img src='images/Home/findship.png' />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-{/* Blogs */}
-
-    <section style={{background: "#10243E"}}>
-        <div className="container mt-15 pt-5">
-            <div className="section-head mb-3 text-center">
-                <h4>BLOGS</h4>
-            </div>
-            <div className="case-study-head text-center">
-                <h3 style={{color: "#FFFFFF"}}>See Why 10,000+ Companies Choose Flexport</h3>
-            </div>
-        </div>
-    </section>
-
-
-{/* signup */}
-    <section>
+<section>
         <div className="container mt-15 mb-15">
             <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                    <div className="signup-heading">
-                        <h3>Sign-Up for Our Intelligent Commerce Newsletter</h3>
-                    </div>
-                    <div className="signup-paragraph">
-                        <p>Insider perspectives, news, updates and expert advice for retail and  e-commerce brands</p>
-                    </div>
-                    <div className="signup-img mt-5">
-                        <img src='images/Home/signup.png' height={187} width={410} />
-                    </div>
+                <div className="col-lg-4 d-flex flex-column justify-content-center">
+                    <img src='images/Home/partnering.png' />
                 </div>
-
-                <div className="col-lg-6 col-sm-12">
-                    <div className="signup-box">
-                        <h4>Work Email ID:</h4>
-                        <input type={'email'} className="email" placeholder="Enter Email Address"/>
-                        
-                        <input type={"checkbox"} className="mt-3"></input>
-                        <label className='signup-agree' style={{marginLeft: "1rem"}}>I agree to the <a href='#'><span style={{color: "#0060BE"}}>Terms</span></a> of Service and <a href='#'><span style={{color: "#0060BE"}}>Privacy Policy</span></a></label>
-                        
-                        <button type='submit' className='signup-btn'>Subscribe</button>
+                <div className="col-lg-8" style={{paddingLeft: "4rem"}}>
+                    <div className="keySucess-head">
+                        <h3>Why is Partnering with NES the new Imperative:</h3>
                     </div>
+                    <div className="keySucess-paragraph">
+                        <p>International trade is crucial for any economy and its no different in India. To execute trade in a fragmented ecosystem puts a significant pressure on exporter or the importer in India. There is an impact of over 14% on the cost of the product manufactured in India due to a fragmented ecosystem. Nes Global is endeavoring to address these factors by the introduction of its digitized platform with an ecosystem which would empower the industry to execute imports and exports seamlessly and more importantly in a compliant manner. All the digital enhancements lead to facilitating global trade via the system and this would contribute to end to end visibility and lowering indirect costs and therefore improving landed costs making Indian products more competitive internationally.</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </section>
+
+{/* nes community */}
+
+    <section style={{backgroundColor: "#10243E"}}>
+        <div className="container d-flex justify-content-center text-center" style={{padding: "96px 185px"}}>
+            <div className="nes-community">
+                <div className="nes-community__header">
+                    <h3 style={{color: "#FFFFFF"}}>Join Nes to be a part of <br/> Happy’NES Community</h3>
+                </div>
+                <div className="nes-community__paragrapgh pt-4">
+                    <p style={{color: "#FFFFFF"}}>The organization is not built and driven on commercial short term objectives but on long term goals of
+                        making it a strong force of good to not only deliver a social and environmental impact but also to measure carbon
+                        emissions, reduce and also offset shipping impacts is a sure and sustainable way to the future of logistics
+                        and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <Signup />
 
     <Footer />
     </>
