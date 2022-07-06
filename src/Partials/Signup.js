@@ -7,7 +7,7 @@ export default function signup() {
             <div className="row">
                 <div className="col-lg-6 col-sm-12 pr-3">
                     <div className="signup-img mb-2">
-                        <img src='images/Home/signupicon.png' height={104} width={104} />
+                        <img src='../images/Home/signupicon.png' height={104} width={104} />
                     </div>
                     <div className="signup-heading">
                         <h3>Sign-Up for Our Intelligent Commerce Newsletter</h3>

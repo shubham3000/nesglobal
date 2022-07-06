@@ -507,7 +507,8 @@ footer hr
 .product-tag-paragraph p,
 .collaboration-paragraph p,
 .ready-paragraph p,
-.further-paragraph p
+.further-paragraph p,
+.nes-paragraph p
 {
     font-family: 'Epilogue';
     font-style: normal;
@@ -548,7 +549,8 @@ footer hr
 .collaboration-header h3,
 .ready-heading h3,
 .product-faq-heading h3,
-.further-head h3
+.further-head h3,
+.nes-head h3
 {
     font-family: 'Prompt';
     font-style: normal;
@@ -904,4 +906,88 @@ footer hr
     font-size: 16px;
     line-height: 150%;
     color: #0060BE;
+}
+
+.nes-box
+{
+    width: 375px;
+    height: auto;
+    padding: 56px 24px;
+    background: #FAFAFA;
+}
+
+.nes-box1
+{
+    width: 475px;
+    height: 240px;
+    padding: 32px 24px;
+}
+
+.nes-box2
+{
+    width: 475px;
+    height: 288px;
+    padding: 32px 24px;
+}
+
+.enquiry-box
+{
+    width: 580px;
+    height: 639px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
+    border-radius: 8px;
+    padding: 32px 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.enquiry-box label,
+.enquiry-terms p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #9EA5AE;
+    margin-bottom: 15px;
+}
+
+.enquiry-box input
+{
+    width: 240px;
+    height: 54px;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    
+}
+
+.enquiry-box textarea
+{
+    width: 500px;
+    height: 86px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    line-height: 140%;
+    border: none;
+    color: #505862;
+    padding: 15px;
+    resize: none;
+    background: #F2F2F2;
+    border-radius: 4px;
+}
+
+.enquiry-box .send-btn button
+{
+    width: 500px;
+    height: 60px;
+    background: #0060BE;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
 }

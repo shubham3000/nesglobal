@@ -24,16 +24,20 @@ export default function header(props) {
                     link: '/nes-platform',
                 },
                 {
-                    title: 'Visiblity',
-                    link: '/visibility',
-                },
-                {
                     title: 'Customs',
                     link: '/customs',
                 },
                 {
+                    title: 'Visiblity',
+                    link: '/visibility',
+                },
+                {
                     title: 'Air Freight',
                     link: '/air-freight',
+                },
+                {
+                    title: 'Air Charters',
+                    link: '/project-air-and-ocean-charters',
                 },
                 {
                     title: 'Ocean Freight',
