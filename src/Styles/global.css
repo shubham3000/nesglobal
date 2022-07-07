@@ -460,7 +460,8 @@ footer hr
 }
 
 .copyrights p,
-.policy p
+.policy p,
+.ready-heading-paragrapgh p
 {
     font-family: 'Epilogue';
     font-style: normal;
@@ -990,4 +991,21 @@ footer hr
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+}
+
+.product-paragraph ul li
+{
+    list-style: initial;
+    padding-bottom: 5px;
+}
+
+.nes-tailor h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
 }
