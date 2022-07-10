@@ -2,26 +2,26 @@ import React from 'react'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import Signup from '../../Partials/Signup'
 
 export default function ProductClassification() {
     return (
         <>
             <Header showNav={true} isWhite={true} />
 
-            <section style={{ background: "#10243E" }}>
+            <section style={{ background: "url('../images/product/prouct_classification/home.png')", backgroundSize: "cover", height: "680px" }}>
                 <div className="container">
-                    <div className="top-section d-flex align-items-center mb-5">
+                    <div className="top-section d-flex align-items-center">
                         <div className="row">
-                            <div className="col-lg-7">
+                            <div className="col-lg-8">
                                 <div className="product-topic">
                                     <h4>Product Classifications</h4>
                                 </div>
                                 <div className="product-heading mt-4">
-                                    <h1>A Few Digits Can Make a Big Difference</h1>
+                                    <h1>Code Up, No secret Code</h1>
                                 </div>
                                 <div className="product-paragraph mt-4">
-                                    <p>The HTS codes in your NES Product Library are used for total transactional consistency. Data is structured to advance trade strategy: With the right eyes on it, your six to ten-digit
-                                        codes could reveal six-digit or higher financial opportunities.</p>
+                                    <p>These 6-10 digit numbered Harmonized Product Tariff Codes serve two major roles and purposes aside from helping goods clear through customs: They identify products that are being imported or exported through a country's borders. They classify and categorize products in a worldwide system used for customs clearance purposes.</p>
                                 </div>
                                 <div className="product-get-started mt-4">
                                     <button type='submit'>Talk To Us</button>
@@ -33,85 +33,59 @@ export default function ProductClassification() {
                 </div>
             </section>
 
-            <section>
-                <div className="container mt-15">
+        <section>
+            <div className="container mt-15 mb-15">
+                <div className="product-item mt-15">
                     <div className="row">
-                        <div className="col-lg-6 d-flex flex-column justify-content-center">
-                            <div className="product-topic1 mb-4">
-                                <h4>TARIFF ENGINEERING</h4>
-                            </div>
-                            <div className="product-heading1">
-                                <h3 style={{color: "#403F3E"}}>Minor Product Changes Major Duty Reductions</h3>
-                            </div>
-                            <div className="product-paragraph">
-                                <p style={{color: "#737171"}}>Should that pocket move down, that piece of glass curve? Tariff engineering is the genius practice of modifying products to satisfy import classifications at a lower duty rate. Tweak a little, save a lot.
-                                    </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 d-flex justify-content-center">
                             <div className="product-img">
-                                <img src='../images/product/product_classification/' />
-                            </div>
-                        </div>
-
-                        <div className="mt-15"></div>
-
-
-                        <div className="col-lg-6">
-                            <div className="product-img">
-                                <img src='../images/product/product_classification/' />
+                                <img src='../images/product/prouct_classification/facilitating.png' />
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex flex-column justify-content-center">
                             <div className="product-topic1 mb-4">
-                                <h4>BLOG</h4>
+                                <h4>Why NES</h4>
                             </div>
                             <div className="product-heading1">
-                                <h3 style={{color: "#403F3E"}}>Can You Engineer Lower Duties? Yes, if You Can Find the Customs Codes</h3>
+                                <h3 style={{color: "#403F3E"}}>Facilitating Trade Compliance</h3>
                             </div>
                             <div className="product-paragraph">
-                                <p style={{color: "#737171"}}>Rules don’t have to be broken to lower or limit duties. Certain circumstances allow for tariff
-                                    engineering, shaping the design of goods for better duty rates.</p>
+                                <p style={{color: "#737171"}}>Trade Compliance is key to building trust in international trade and also opens doors to benefits of products are classified accurately. Product Classification is a standalone fee based service offered by NES Global to ensure that the customer can sanitize their invoices and declarations and facilitate minimized customs duties and a seamless custom clearance of their shipments. The advisors would also assist in building a compliant harmonized product library for the products which would mitigate future risks and also reduce duty exposures or seek trade benefits impacting to making healthy bottom lines.</p>
                             </div>
                             <div className="learn-more-btn mt-4">
-                                <button type='submit'>Read More</button>
+                                <button type='submit'>Connect with our advisor</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
 
-             {/* signup */}
-    <section style={{background: "#E6EFF9"}}>
-        <div className="container mt-15 py-5">
-            <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                    <div className="signup-heading">
-                        <h3>Sign-Up for Our Intelligent Commerce Newsletter</h3>
-                    </div>
-                    <div className="signup-paragraph">
-                        <p style={{color: "#595858"}}>Insider perspectives, news, updates and expert advice for retail and  e-commerce brands</p>
-                    </div>
-                    <div className="signup-img mt-5">
-                        <img src='../images/product/nesplatform/signup.png' height={187} width={410} />
-                    </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-12">
-                    <div className="signup-box">
-                        <h4>Work Email ID:</h4>
-                        <input type={'email'} className="email" placeholder="Enter Email Address"/>
-                        
-                        <input type={"checkbox"} className="mt-3"></input>
-                        <label className='signup-agree' style={{marginLeft: "1rem"}}>I agree to the <a href='#'><span style={{color: "#0060BE"}}>Terms</span></a> of Service and <a href='#'><span style={{color: "#0060BE"}}>Privacy Policy</span></a></label>
-                        
-                        <button type='submit' className='signup-btn'>Subscribe</button>
+                <div className="product-item mt-15">
+                    <div className="row">
+                        <div className="col-lg-6 d-flex flex-column justify-content-center">
+                            {/* <div className="product-topic1 mb-4">
+                                <h4>Why NES</h4>
+                            </div> */}
+                            <div className="product-heading1">
+                                <h3 style={{color: "#403F3E"}}>Product Classification</h3>
+                            </div>
+                            <div className="product-paragraph">
+                                <p style={{color: "#737171"}}>Minor physical changes to the product could lead to classifying the product to a harmonized code that could avail lower duty tariffs. This is a clever and 100% compliant practice in trade that the NES advisors can guide the customer to avail significant trade benefits.</p>
+                            </div>
+                            <div className="learn-more-btn mt-4">
+                                <button type='submit'>Connect with our advisor</button>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 d-flex justify-content-center">
+                            <div className="product-img">
+                                <img src='../images/product/prouct_classification/classification.png' />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+    <Signup/>
     <Footer />
         </>
     )

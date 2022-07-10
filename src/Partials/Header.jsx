@@ -47,6 +47,22 @@ export default function header(props) {
                     title: 'Trade Finance',
                     link: '/trade-finance',
                 },
+                {
+                    title: 'Product Classifications',
+                    link: '/product-classification',
+                },
+                {
+                    title: 'Cargo Insurance',
+                    link: '/cargo-insurance',
+                },
+                {
+                    title: 'Trade Advisory',
+                    link: '/trade-advisory',
+                },
+                {
+                    title: 'Duty Drawbacks',
+                    link: '/duty-drawbacks',
+                },
             ]
         },
         {

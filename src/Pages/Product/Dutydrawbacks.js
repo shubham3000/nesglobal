@@ -2,13 +2,14 @@ import React from 'react'
 
 import Footer from '../../Partials/Footer'
 import Header from '../../Partials/Header'
+import Signup from '../../Partials/Signup'
 
 export default function Dutydrawbacks() {
   return (
     <>
     <Header showNav={true} isWhite={true} />
 
-    <section style={{ background: "#10243E" }}>
+    <section style={{ background: "url('../images/product/duty_drawbacks/home.png')", backgroundSize: "cover", height: "680px" }}>
         <div className="container">
         <div className="top-section d-flex align-items-center mb-5">
             <div className="row">
@@ -37,7 +38,7 @@ export default function Dutydrawbacks() {
             <div className="row">
                 <div className="col-lg-4 col-sm-12">
                     <div className="product-tag">
-                        <img src='../images/product/duty_drawbacks/cover.png' />
+                        <img src='../images/product/duty_drawbacks/line.png' />
                     </div>
                     <div className="product-tag-head mt-3">
                         <h4>Line Your Pockets with a New Line Item</h4>
@@ -49,7 +50,7 @@ export default function Dutydrawbacks() {
                 </div>
                 <div className="col-lg-4 col-sm-12">
                     <div className="product-tag">
-                        <img src='../images/product/duty_drawbacks/cover.png' />
+                        <img src='../images/product/duty_drawbacks/simplify.png' />
                     </div>
                     <div className="product-tag-head mt-3">
                         <h4>Simplify Your Claim with Centralized Data</h4>
@@ -61,7 +62,7 @@ export default function Dutydrawbacks() {
                 </div>
                 <div className="col-lg-4 col-sm-12">
                     <div className="product-tag">
-                        <img src='../images/product/duty_drawbacks/cover.png' />
+                        <img src='../images/product/duty_drawbacks/work.png' />
                     </div>
                     <div className="product-tag-head mt-3">
                         <h4>Work with Experts Who Have Your Back</h4>
@@ -76,11 +77,12 @@ export default function Dutydrawbacks() {
 
 
     <section>
-        <div className="container mt-15">
-            <div className="row">
+        <div className="container mt-15 mb-15">
+            <div className="product-item mt-15">
+              <div className="row">
                 <div className="col-lg-6">
                     <div className="product-img">
-                        <img src='../images/product/duty_drawbacks/' />
+                        <img src='../images/product/duty_drawbacks/understand.png' />
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -97,10 +99,12 @@ export default function Dutydrawbacks() {
                       <button type='submit'>Talk To An Expert</button>
                     </div>
                 </div>
+            </div>
+            </div>
 
 
-                <div className="mt-15"></div>
-
+            <div className="product-item mt-15">
+              <div className="row">
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
                     <div className="product-topic1 mb-4">
                         <h4>APPLY</h4>
@@ -114,15 +118,17 @@ export default function Dutydrawbacks() {
                 </div>
                 <div className="col-lg-6">
                     <div className="product-img">
-                        <img src='../images/product/duty_drawbacks/' />
+                        <img src='../images/product/duty_drawbacks/stake.png' />
                     </div>
                 </div>
+            </div>
+            </div>
 
-                <div className="mt-15"></div>
-
+            <div className="product-item mt-15">
+              <div className="row">
                 <div className="col-lg-6">
                     <div className="product-img">
-                        <img src='../images/product/duty_drawbacks/' />
+                        <img src='../images/product/duty_drawbacks/final.png' />
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -136,10 +142,12 @@ export default function Dutydrawbacks() {
                         <p style={{color: "#737171"}}>Through the NES Platform, your data is easy to retrieve and structured for filing. We’ll aggregate your ACE data, comb your SKUs, and check your supplier and customer records for every inclusion you can claim. Then, we’ll file for you and back you up with an audit trail.</p>
                     </div>
                 </div>
+            </div>
+            </div>
 
 
-                <div className="mt-15"></div>
-
+            <div className="product-item mt-15">
+              <div className="row">
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
                     <div className="product-topic1 mb-4">
                         <h4>REPEAT</h4>
@@ -156,15 +164,17 @@ export default function Dutydrawbacks() {
                 </div>
                 <div className="col-lg-6">
                     <div className="product-img">
-                        <img src='../images/product/duty_drawbacks/' />
+                        <img src='../images/product/duty_drawbacks/once.png' />
                     </div>
                 </div>
+            </div>
+            </div>
 
-                <div className="mt-15"></div>
-
+            <div className="product-item mt-15">
+              <div className="row">
                 <div className="col-lg-6">
                     <div className="product-img">
-                        <img src='../images/product/duty_drawbacks/' />
+                        <img src='../images/product/duty_drawbacks/drawback.png' />
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center">
@@ -182,128 +192,12 @@ export default function Dutydrawbacks() {
                       <button type='submit'>Talk To Us</button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    {/* FAQS */}
-
-<section class="product-faq mt-15 mb-15">
-        <div class="container">
-          <div className="product-topic1 mb-5 text-center">
-                <h4>NEED ANY HELP?</h4>
-          </div>
-          <div className="product-faq-heading">
-           <h3 class="text-center" style={{color: "#403F3E"}}>Frequently Asked Questions</h3>
-          </div>
-        
-          <div class="accordion accordion-flush product-faq__accordian" id="product-faq__accordian">
-
-            <div class="accordion accordion-flush product-faq__accordian" id="product-faq__accordian">
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                    aria-expanded="false" aria-controls="flush-collapseOne">
-                   Why haven’t I heard of duty drawback?
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingFiveOne">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFiveOne"
-                    aria-expanded="false" aria-controls="flush-collapseFiveOne">
-                   How much amount can customers be refunded with ?
-                  </button>
-                </h2>
-                <div id="flush-collapseFiveOne" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingFiveOne" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-                  Billions in excess duties go unclaimed each year. How much you're leaving on the table
-                    depends on various factors.
-                    For eligible companies, average claims are approximately a hundred to a few hundred
-                    thousand INR. For larger companies, it could be a seven- or eight-figure number.
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingTen">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
-                    aria-expanded="false" aria-controls="flush-collapseTen">
-                   What is the Frequency for filing drawback?
-                  </button>
-                </h2>
-                <div id="flush-collapseTen" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTen" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item product-faq__accordian-item card">
-                <h2 class="accordion-header" id="flush-headingTen">
-                  <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
-                    aria-expanded="false" aria-controls="flush-collapseTen">
-                   How do I know if I am eligible for duty drawback?
-                  </button>
-                </h2>
-                <div id="flush-collapseTen" class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTen" data-bs-parent="#product-faq__accordian">
-                  <div class="accordion-body para">
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* signup */}
-    <section style={{background: "#E6EFF9"}}>
-        <div className="container mt-15 py-5">
-            <div className="row">
-                <div className="col-lg-6 col-sm-12">
-                    <div className="signup-heading">
-                        <h3>Sign-Up for Our Intelligent Commerce Newsletter</h3>
-                    </div>
-                    <div className="signup-paragraph">
-                        <p style={{color: "#595858"}}>Insider perspectives, news, updates and expert advice for retail and  e-commerce brands</p>
-                    </div>
-                    <div className="signup-img mt-5">
-                        <img src='../images/product/nesplatform/signup.png' height={187} width={410} />
-                    </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-12">
-                    <div className="signup-box">
-                        <h4>Work Email ID:</h4>
-                        <input type={'email'} className="email" placeholder="Enter Email Address"/>
-                        
-                        <input type={"checkbox"} className="mt-3"></input>
-                        <label className='signup-agree' style={{marginLeft: "1rem"}}>I agree to the <a href='#'><span style={{color: "#0060BE"}}>Terms</span></a> of Service and <a href='#'><span style={{color: "#0060BE"}}>Privacy Policy</span></a></label>
-                        
-                        <button type='submit' className='signup-btn'>Subscribe</button>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <Signup/>
 
     <Footer />
     </>
