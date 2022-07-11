@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Partials/Footer'
 import Header from '../Partials/Header'
 import Signup from '../Partials/Signup'
+import Carosoul from './Carosoul'
 
 export default function Home() {
   return (
@@ -66,15 +67,9 @@ export default function Home() {
                 <img src='images/Home/nesplatformimage.png' />
             </div>
             <div className="col-lg-6 p-5 d-flex flex-column justify-content-center">
-                <div className="supply-box p-5">
-                    <div className="supply-paragrapgh">
-                        <p>After your Order is ready for dispatch, send your pickup request to the Nes online and leave it to the NES ops team to execute
-                            </p>
-                    </div>
-                    <div className="supply-learn-more">
-                        <a href='#'>Learn More<i class="far fa-angle-right"></i></a>
-                    </div>
-                </div>
+                
+                    <Carosoul/>
+                
             </div>
         </div>
     </div>
