@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,800;1,900&family=Prompt:wght@200;400;500;600;700;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
+body, html{
+    overflow-x: hidden;
+    font-family: 'Epilogue';
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li
+{
+    list-style: none;
+}
+
+.mt-15
+{
+    margin-top: 8rem;
+}
+.mb-15
+{
+    margin-bottom: 8rem;
+}
+
+input:focus,
+textarea:focus
+{
+    outline: none;
+}
+
+nav
+{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul,
+.search-nav ul
+{
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.menu ul li,
+.search-nav ul li
+{
+    padding: 0 16px;
+}
+
+.heading-6{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.heading-3{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #403F3E;
+}
+
+
+.search-nav ul li i
+{
+    width: 24px;
+    height: 24px;
+}
+
+.btn-primary
+{
+    min-width: 150px;
+    min-height: 45px;
+    background: #0060BE;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.contact-nav button,
+.donate-btn button
+{
+    background: #24C6AF;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.menu ul li a
+{
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #595858;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-list i
+{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.menu .menu-list li:hover i
+{
+    transform: rotateX(180deg);
+    padding-left: 5px;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #595858;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #0060BE;
+  color: #FFFFFF;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.menu-list .dropdown .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block !important;
+  text-align: left;
+  line-height: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content .sub-dropdown-content{
+    display: none;
+}
+
+
+.sub-dropdown-content
+{
+    position: absolute;
+    display: none;
+    left: 100%;
+    top: 10%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+.sub-dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 6px;
+}
+  
+.dropdown .dropdown-content a:hover .sub-dropdown-content{
+    display: block;
+}
+
+.menu .menu-list li .dropdown-content:hover i
+{
+    transform: rotateX(180deg);
+    padding-left: 5px;
+}
+
+
+/*Home CSS*/
+
+.top-section
+{
+    height: 650px;
+}
+
+.home-details h1
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+
+.home-details p
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}
+
+.talk-to-expert button,
+.product-get-started button
+{
+    border: none;
+    padding: 16px 28px;
+    background: #0060BE;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.watch-video a
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.section-head h4
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.supply-chain-head h3,
+.find-heading h3,
+.case-study-head h3,
+.case-header h3,
+.signup-heading h3,
+.collaboration-head h3
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #0C1E35;
+}
+
+.supply-chain-build--details h3
+{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3D4B5D;
+}
+
+.supply-chain-build--details p,
+.find-paragraph p,
+.case-paragraph p,
+.signup-paragraph p
+.signup-agree
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D7886;
+}
+
+.supply-chain-build--details a
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.case
+{
+    padding-top: 4rem;
+    padding-right: 2rem;
+}
+
+.case-btn .read-btn button,
+.see-more-btn button,
+.reday-btn button,
+.learn-more-btn button
+{
+    border: none;
+    background: #0060BE;
+    border-radius: 3px;
+    padding: 16px 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.case-btn .get-started-btn button
+{
+    margin-left: 25px;
+    width: 150px;
+    height: 56px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 16px 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    box-shadow: 0px 4px 20px rgba(12, 30, 53, 0.08);
+}
+
+.signup-box 
+{
+    margin-top: 25px;
+    width: 574px;
+    height: 346px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
+    border-radius: 4px;
+    padding: 4rem;
+}
+
+.signup-box h4
+{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0C1E35;
+}
+
+.signup-box .email
+{
+    width: 100%;
+    height: 60px;
+    border: 2px solid rgba(12, 30, 53, 0.08);
+    padding-left: 15px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.signup-box .signup-btn
+{
+    margin-top: 2.5rem;
+    width: 137px;
+    height: 56px;
+    border: none;
+    background: #0060BE;
+    border-radius: 3px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.informational-content{
+    padding: 96px 0px;
+}
+
+.informational-content .case-study-head{
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+
+/* .signup-box input[type=checkbox]:checked::after
+{
+    background-color: #0060BE;
+} */
+
+
+/*Footer CSS*/
+
+.footer{
+    padding: 4rem 0px;
+}
+
+.footer .social-icon{
+    display: flex;
+}
+
+.social-icon i,
+.team-social-links i
+{
+    color: #FFFFFF;
+    align-items: center;
+    background: #0060BE;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+.footer-heading h5
+{
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.footer-list ul
+{
+    padding-left: 0;
+}
+
+.footer-list li
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #D9D9D9;
+    margin: 25px 0;
+}
+
+.footer-middle .col-lg-2 
+{
+    margin-right: 40px;
+    padding-right: 0;
+}
+
+.footer-middle .col-lg-2:nth-child(5)
+{
+    margin-right: 0px;
+    padding-right: 0;
+}
+
+footer hr
+{
+    color: #FFFFFF;
+}
+
+.copyrights p,
+.policy p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+/*Product CSS*/
+
+.product-topic h4
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.product-topic1 h4,
+.collaboration-topic h4
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.product-heading h1
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+
+.product-paragraph p,
+.product-tag-paragraph p,
+.collaboration-paragraph p,
+.ready-paragraph p,
+.further-paragraph p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #D9D9D9;
+}
+
+.product-tag-paragraph p,
+.collaboration-paragraph p,
+.further-paragraph p
+{
+    color: #737171;
+}
+
+.product-tag img,
+.further-tag img
+{
+    width: 64px;
+    height: 64px;
+}
+
+.product-tag-head h4,
+.further-head h4
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #595858;
+}
+
+.leading-brands h3,
+.product-heading1 h3,
+.collaboration-header h3,
+.ready-heading h3,
+.product-faq-heading h3,
+.further-head h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+/* Visibility CSS*/
+
+.product-box
+{
+    width: 376px;
+    height: 412px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(12, 30, 53, 0.08);
+    padding: 50px 25px;
+}
+
+.product-top-section
+{
+    margin-top: -95px;
+}
+
+.ready
+{
+    padding: 100px 0;
+}
+
+.product-faq__accordian {
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 3.625rem;
+}
+
+.product-faq__accordian-item {
+    margin-top: 0.825rem;
+}
+
+.product-faq__accordian .accordion-button {
+    font-weight: bold;
+}
+
+.product-faq__accordian .accordion-button:not(.collapsed) {
+    background: #fff;
+    color: #403F3E;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    /* background-image: url("images/plus.svg"); */
+    background-size: 14px;
+    background-position: center;
+    transform-origin: center;
+}
+
+.accordion-button:not(.collapsed)::after {
+    /* background-image: url("images/minus.svg"); */
+}
+
+.accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.para {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    color: #737171;
+}
+
+.accordion-item
+{
+    border: 1px solid #E6E5E5;
+    border-radius: 10px;
+}
+
+.product-faq__accordian-item {
+    margin-top: 2rem;
+}
+
+.card
+{
+    border: 1px solid #E6E5E5 !important;
+}
+
+/*Customs CSS*/
+.learn-more-btn button
+{
+    border: 2px solid #0060BE;
+    border-radius: 4px;
+    background: none;
+    color: #0060BE;
+}
+
+.further-learn-more a,
+.ways-learn-more a
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.further-learn-more a,
+.ways-learn-more a i
+{
+    padding-left: 1rem;
+}
+
+.trade h2,
+.team h2,
+.global h2,
+.role h2
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #403F3E;
+}
+
+.trade-paragraph p,
+.bio h5
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D7886;
+}
+
+.trade-head h3,
+.team-name h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #595858;
+}
+
+.team-post h4,
+.address-head h4
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0060BE;
+}
+
+.team-lead
+{
+    padding: 0 8rem 3rem;
+    margin-top: -200px;
+}
+
+.contactus
+{
+    background: #FFFFFF;
+    padding: 70px 40px;
+    height: 563px;
+}
+
+.contact-head h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 125%;
+    color: #403F3E;
+}
+
+.address p,
+.engineer-desg h5
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #6D7886;
+}
+
+.contactus label
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    color: #737171;
+}
+
+.contactus input,
+.contactus textarea
+{
+    background: #F5F4F4;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.contactus textarea
+{
+    height: 115px;
+    padding-top: 15px;
+    resize: none;
+}
+
+.contactus .send-btn button
+{
+    width: 627px;
+    height: 60px;
+    background: #0060BE;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.engineer-name h4
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #595858;
+}
+
+.nescare-heading h1
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.nescare-paragraph p,
+.ways-paragraph p,
+.terms-paragrapgh p
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.ways-heading h1,
+.terms-subheading  h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 6rem;
+}
+
+.ways-tag img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.ways-topic h3,
+.termsdate h3
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.ways-paragraph p
+{
+    width: 247px;
+}
+
+
+.copyright .rights h5,
+.copyright .terms h5
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #737171;
+}
+
+.terms-heading h1
+{
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 115%;
+    color: #403F3E;
+}
+
+.terms-list ul li
+{
+    list-style: initial;
+    color: #0060BE;
+    margin-top: 1rem;
+}
+
+.terms-list ul li a
+{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0060BE;
+}

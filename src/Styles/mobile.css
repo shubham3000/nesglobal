@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px)  {
+
+    .mt-15 {
+        margin-top: 5rem;
+    }
+
+    .leading-brands h3, .product-heading1 h3, .collaboration-header h3, .ready-heading h3, .product-faq-heading h3, .further-head h3{
+        font-size: 24px;
+    }
+
+    .address p, .engineer-desg h5{
+        font-size: 13px;
+    }
+
+    .product-paragraph p, .product-tag-paragraph p, .collaboration-paragraph p, .ready-paragraph p, .further-paragraph p{
+        font-size: 14px;
+        word-spacing: 2px;
+        line-height: 1.6;
+    }
+
+    .case-btn .read-btn button, .see-more-btn button, .reday-btn button, .learn-more-btn button{
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .footer{
+        padding: 4rem 1rem;
+    }
+
+    .footer .social-icon{
+        display: none;
+    }
+    .footer-middle .col-sm-6{
+        width: 50%;
+        margin-right: 0px;
+    }
+    .footer-middle .col-sm-6:nth-child(2){
+        order: 3;
+    }
+    .footer-middle .col-sm-6:nth-child(3){
+        order: 2;
+    }
+    
+}
