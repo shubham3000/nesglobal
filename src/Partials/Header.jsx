@@ -66,14 +66,6 @@ export default function header(props) {
             ]
         },
         {
-            title: 'Use Cases',
-            link: '#docs'
-        },
-        {
-            title: 'Developers',
-            link: '#custom-bar'
-        },
-        {
             title: 'Resources',
             link: '#contact'
         },

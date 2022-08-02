@@ -3,6 +3,7 @@ import Footer from '../Partials/Footer'
 import Header from '../Partials/Header'
 import Signup from '../Partials/Signup'
 import Carosoul from './Carosoul'
+import Navigate_tabs from './navigate_tabs'
 
 export default function Home() {
   return (
@@ -77,7 +78,7 @@ export default function Home() {
 
 
 <section>
-        <div className="container mt-15 mb-15">
+        <div className="container mt-15">
             <div className="row">
                 <div className="col-lg-4 d-flex flex-column justify-content-center">
                     <img src='images/Home/partnering.png' />
@@ -95,10 +96,12 @@ export default function Home() {
         </div>
     </section>
 
+<Navigate_tabs/>
+
 {/* nes community */}
 
     <section style={{backgroundColor: "#10243E"}}>
-        <div className="container d-flex justify-content-center text-center" style={{padding: "96px 185px"}}>
+        <div className="container mt-15 d-flex justify-content-center text-center" style={{padding: "96px 185px"}}>
             <div className="nes-community">
                 <div className="nes-community__header">
                     <h3 style={{color: "#FFFFFF"}}>Join Nes to be a part of <br/> Happy’NES Community</h3>
