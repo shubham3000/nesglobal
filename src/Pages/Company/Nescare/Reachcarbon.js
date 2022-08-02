@@ -3,6 +3,7 @@ import React from 'react'
 import Copyright from '../../../Partials/Copyright'
 
 import Header from '../../../Partials/Header'
+import '../../../Styles/global.css'
 
 export default function reachcarbon() {
   return (
